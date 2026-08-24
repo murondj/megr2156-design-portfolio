@@ -10,13 +10,13 @@
 4.) Create a clear and concise "About Me" section on the website page and answer questions.  
 
 ## Analyze
-Task A: Portfolio Analysis  
+### Task A: Portfolio Analysis  
 
 This task requires critical thinking and understanding of what a portfolio is. In a brief summary, a portfolio for a mechanical engineer is a website, PDF, or other representation that documents and outlines projects the mechanical engineer has completed. It holds information and a clear path the engineer took to solve a problem. All work on the project is documented and conveyed in a clear and precise manner, to where anyone can replicate the project effectively. In this task, two portfolios will be analyzed based on the criteria of Navigability, Reproducibility, Evidence and Reasoning, and Professionality.  
 
-Case 1: Luke DeVries  
+**Case 1: Luke DeVries**  
 
-Luke DeVries is a student at University of North Carolina at Charlotte that has previously taken the Sophomore Design Class. This is the link to the website that will be analyzed:[insert link here].  
+Luke DeVries is a student at University of North Carolina at Charlotte that has previously taken the Sophomore Design Class. This is the link to the website that will be analyzed: https://instructure.charlotte.edu/eportfolios/4880/welcome.  
 
 Luke's website is easily navigated, having headers and a running list of sections down the side that showcase his work. The layout begins with a section about why the portfolio is created and its intended use. This allows for anyone accessing the website to find information needed about the author of the website and the contents of the portfolio itself based on his personal description. There is a small inconsistency that the headers of each section are labeled as "Assignment X" instead of what the project actually contains. However, this can be overlooked as the main function of the site is to display the projects specifically from the Sophomore Design Class. If and when Luke adds a personal project or other information, this should be updated with a specific header or the assignments moved to an Assignment section added later.  
 
@@ -24,7 +24,10 @@ All the projects and documents in Luke's website are extremely detailed and very
 
 The tone conveyed in this portfolio is mostly professional to employers and engineers. Luke is able to convey ideas in a manner that will allow for repeatable results and also displays the work done in a project. However, to make it even more professional, Luke should have avoided using first person to document results. Most professional documents use passive voice in research and development to refrain from personal opinion and focus mainly on the topic covered and the data needed for the designs and projects. From an employer's perspective, it does make sense to insert himself into the documentation for exemplifying his skills, but not to engineers. Engineers need facts and data to interpret and find results. If a new and unique way to solve a problem is discovered, self insertion into this method is unnecessary, as it is already implied that the person documenting the results is the one that made the discoveries. It is important to note that while the tone is not perfect, it still relays information reliably and accurately.
 
-Case 2: 
+**Case 2: TJ Watson**
+
+### Task B: Product Analysis  
+
 ## Decide
 
 
