@@ -26,7 +26,43 @@ The tone conveyed in this portfolio is mostly professional to employers and engi
 
 **Case 2: TJ Watson**
 
+TJ Watson is is a mechanical engineer that graduated from the Worcester Polytechnic Institute with a double major in Robotics Engineering and Mechanical Engineering. He currently is employed at Aurora Innovation as a Staff Hardware Engineer. This is the link to his portfolio that is being analyzed: https://www.tjwatson.net/work.html  
+
+TJ's website is laid out in a simplistic way that allows the user to navigate through the tabs located at the top of the website. The user is able to find out personal information on TJ, his work experience and education, as well as information on his projects through his career. His resume is linked into the website as well for access to his employment and previous experiences. All the information on TJ's projects. Understandably, all of the projects he has worked on have limited access due to the nature of his work, but general information and patents of projects are documented as well as some pictures. A person would not be able to reproduce the work easily based on what is given, but they can find out more information based on the products on the websites. Under the assumption that not all the work is given to the public domain, the evidence of the projects TJ has worked on are only the final results, and not the whole process, so the user cannot draw conclusions based on the information given.
+
+From a professional standpoint, the tone of the website is very laid-back. No engineering terminology is used and the website is mainly centered on what TJ has accomplished, rather than the process of those accomplishments. For a company looking to hire TJ, this is acceptable, but between other engineers, it is not. There is further documentation that might have these processes that the user does not have access to that would explain the projects further, but it is not directly stated on the portfolio.
+
+
 ### Task B: Product Analysis  
+
+Task B requires an in-depth analysis of a physical product that is constrained to have three or less physical components and is mechanical in nature. 
+
+#### Analyzed Component: Office Scissors
+
+Scissors are a tool that is used to cut objects using mechanical leverage and shear force. These can range from paper and plastic materials to human tissue in a surgical setting. The object analyzed will be office scissors, which are mainly used to cut paper and cardboard material.
+
+**Mechanics of Scissors**  
+
+As stated earlier, the function of scissors relies on mechanical leverage and shear force as the main components to cleave objects.
+
+**Mechanical Leverage**
+For scissors that use Mechanical Leverage, the calculated leverage is equal to ***Lin/Lout***. In the case of scissors, the variable of ***Lin*** is the distance between the force applied from the users fingers to the pivot, or fulcrum point on the scissors. The variable ***Lout*** is the distance from the fulcrum to the point of the blade. This calculation gives you a factor of how much the force is multiplied by. 
+
+**Shear Force**
+Scissors use shear force to cleave objects apart. This force can be calculated as Tau = F/A. Tau is the shear force, F is the force applied to the blades of the scissors, and A is the cross-sectional area where the blades meet the cutting object. Since the blade's cross-sectional area is very small, this allows the shear force to become very large.
+
+**FISKARS H-1000 Office Scissors**  
+
+This product utilizes the mechanics of shear force and mechanical leverage, making it a valid, functioning pair of office scissors
+
+The office scissors analyzed are the FISKARS H-1000 Office Scissors. The components that make this product are a screw used as the fulcrum, and two four inch shear blades with a four inch handle. 
+
+
+Due to the simplicity of the nature of office scissors (Increasing length of blade increases leverage, decreasing cutting area), it is better to list alternative devices from scissors that serve the same function and use similar mechanics. One device is an office paper trimmer. This assists in cutting larger stacks of paper and thicker office materials using a lever arm with a blade. The blade is much longer than a scissor blade and the fulcrum point is attached to the base of the trimmer. This allows for a much larger mechanical advantage and increases the shear force of the trimmer to be able to handle more paper to cut than the H-1000 scissors. Another device that uses similar mechanics to scissors is Loop scissors. These use the exact same mechanics as the H-1000 scissors, except there is a spring that allows the blades to separate back to a cutting position for more efficient use. This however creates a more complex system, which involves spring mechanics to return the blades to the open position and also adds the extra component of the spring.  
+
+In the original patent for the office scissors, they use a pin at the fulcrum. This pin allows the scissors to rotate freely which can lead to opening the scissors at unintended times and can even injure the user if not careful. The H-1000 scissors use a threaded screw to allow fore a more precise opening, but also allows the scissors to remain closed when not in use. This leads to less accidents and more control over the cut to the paper.
+
+
 
 ## Decide
 
