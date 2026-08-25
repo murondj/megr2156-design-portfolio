@@ -1,4 +1,4 @@
-#About Me  
+# About Me  
 
 My name is J.V. Muron and I am currently a junior at the University of North Carolina at Charlotte. I am majoring in Mechanical Engineering and minoring in Electrical Engineering.
 
