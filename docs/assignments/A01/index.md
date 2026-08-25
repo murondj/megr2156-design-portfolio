@@ -53,16 +53,14 @@ Scissors use shear force to cleave objects apart. This force can be calculated a
 
 **FISKARS H-1000 Office Scissors**  
 
-This product utilizes the mechanics of shear force and mechanical leverage, making it a valid, functioning pair of office scissors
 
-The office scissors analyzed are the FISKARS H-1000 Office Scissors. The components that make this product are a screw used as the fulcrum, and two four inch shear blades with a four inch handle. 
+This product utilizes the mechanics of shear force and mechanical leverage, making it a valid, functioning pair of office scissors.
 
+The office scissors analyzed are the FISKARS H-1000 Office Scissors. The components that make this product are a screw used as the fulcrum, and two four inch shear blades with a four inch handle. The patent number for the specific scissors shown above is [USD383957S](https://patents.google.com/patent/USD383957S/en?oq=USD383957). The author on this patent is Robert W. Cornell. 
 
 Due to the simplicity of the nature of office scissors (Increasing length of blade increases leverage, decreasing cutting area), it is better to list alternative devices from scissors that serve the same function and use similar mechanics. One device is an office paper trimmer. This assists in cutting larger stacks of paper and thicker office materials using a lever arm with a blade. The blade is much longer than a scissor blade and the fulcrum point is attached to the base of the trimmer. This allows for a much larger mechanical advantage and increases the shear force of the trimmer to be able to handle more paper to cut than the H-1000 scissors. Another device that uses similar mechanics to scissors is Loop scissors. These use the exact same mechanics as the H-1000 scissors, except there is a spring that allows the blades to separate back to a cutting position for more efficient use. This however creates a more complex system, which involves spring mechanics to return the blades to the open position and also adds the extra component of the spring.  
 
-
-The patent number for the specific scissors shown above is [USD383957S](https://patents.google.com/patent/USD383957S/en?oq=USD383957)
-In the original patent for the office scissors, they use a pin at the fulcrum. This pin allows the scissors to rotate freely which can lead to opening the scissors at unintended times and can even injure the user if not careful. The H-1000 scissors use a threaded screw to allow fore a more precise opening, but also allows the scissors to remain closed when not in use. This leads to less accidents and more control over the cut to the paper.
+In the original patent for the office scissors, they use a pin at the fulcrum. This pin allows the scissors to rotate freely which can lead to opening the scissors at unintended times and can even injure the user if not careful. The H-1000 scissors use a threaded screw in the plastic handle to allow fore a more precise opening, but also allows the scissors to remain closed when not in use. This leads to less accidents and more control over the cut to the paper.
 
 
 
