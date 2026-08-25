@@ -95,7 +95,12 @@ In the original patent for the office scissors, they use a pin at the fulcrum. T
 
 ## Decide
 
-As an engineer it is important that everything is organized and readily available. 
+The objectives for this section is to implement a design choice and defend the position of the layout of the home page of the portfolio.
+
+
+As an engineer it is important that everything is organized and readily available. It is also important to be able to sell yourself to an employer and exemplify your work. The home page should have a very brief summary of what the user is expecting to see when entering the portfolio. There should be no confusion on where anything is or how to navigate the site. This home page is kept short, explaining the main function of the portfolio as a hub for the Sophomore Design Class assignments, with future intent of adding personal or career projects. 
+
+Changing the layout
 ## Communicate
 
 ### Task 1 and 2: Populate the Portfolio
