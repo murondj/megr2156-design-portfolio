@@ -49,7 +49,7 @@ As stated earlier, the function of scissors relies on mechanical leverage and sh
 For scissors that use Mechanical Leverage, the calculated leverage is equal to ***Lin/Lout***. In the case of scissors, the variable of ***Lin*** is the distance between the force applied from the users fingers to the pivot, or fulcrum point on the scissors. The variable ***Lout*** is the distance from the fulcrum to the point of the blade. This calculation gives you a factor of how much the force is multiplied by. 
 
 **Shear Force**
-Scissors use shear force to cleave objects apart. This force can be calculated as Tau = F/A. Tau is the shear force, F is the force applied to the blades of the scissors, and A is the cross-sectional area where the blades meet the cutting object. Since the blade's cross-sectional area is very small, this allows the shear force to become very large.
+Scissors use shear force to cleave objects apart. This force can be calculated as ***Tau = F/A***. Tau is the shear force, ***F*** is the force applied to the blades of the scissors, and ***A*** is the cross-sectional area where the blades meet the cutting object. Since the blade's cross-sectional area is very small, this allows the shear force to become very large.
 
 **FISKARS H-1000 Office Scissors**  
 
@@ -77,4 +77,10 @@ These two tasks require the user to add their name, objective of the portfolio, 
 
 This task requires for the portfolio author to answer a question that will be referred to and reflected upon throughout the semester.
 
-***Question: "What does it mean to defend an engineering decision : and do you currently know how to do it?"***
+***Question: "What does it mean to defend an engineering decision : and do you currently know how to do it?"***  
+
+While I do not know exactly what this means or how to do it yet, I will take an educated guess to answer this question. Defending an engineering decision could mean a multiple of things. Based on the constraints; time,  money,  and resources available, no one can create the perfect product or find the absolute best possible solution, but we can get close. Defending your position as an engineer means that you sacrificed one of these constraints for the best results in your opinion as an engineer. This could be you increased the cost of a product to design it to be safer or you spent more time developing a part to take up less resources. Whatever the decision, as an engineer, you will have to give your professional opinion on why you made certain choices on a design. Defending your choice may come to showing results of data or cost analysis depending on what you chose to defend. 
+
+### Task 4: Time Log
+
+Time spent on Assignment 1: 8 hours and 13 minutes over the course of 4 days
