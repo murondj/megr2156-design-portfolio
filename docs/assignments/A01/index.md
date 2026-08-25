@@ -53,8 +53,37 @@ Scissors use shear force to cleave objects apart. This force can be calculated a
 
 **FISKARS H-1000 Office Scissors**  
 
+This product utilizes the mechanics of shear force and mechanical leverage, making it a valid, functioning pair of office scissors.  
 
-This product utilizes the mechanics of shear force and mechanical leverage, making it a valid, functioning pair of office scissors.
+<img src="Scissors_Figure_1.jpeg" width="300" alt="Top View of Scissors"> 
+
+**Figure 1: Top View of Scissors**
+<br><br>
+
+<img src="Scissors_Figure_2.jpeg" width="300" alt="Open Top View of Scissors">  
+
+**Figure 2: Open Top View**
+<br><br>
+
+<img src="Scissors_Figure_3.jpeg" width="300" alt="Front Profile of Scissors">  
+
+**Figure 3: Front Profile** 
+<br><br>
+
+<img src="Scissors_Figure_4.jpeg" width="300" alt="Side Profile of Scissors">  
+
+**Figure 4: Side Profile**
+<br><br>
+
+<img src="Scissors_Figure_5.jpeg" width="300" alt="Components of Scissors">  
+
+**Figure 5: Components of Scissors**
+<br><br>
+
+
+
+The geometry of the product is exemplified in the figures. The first two figures give an overview of the function of the scissors. Pivoting around the fulcrum, the blade is able to shear the objects that need to be cut. It can be seen how the blade opens and closes to complete this task. The side profiles show the grip for the scissors which allow for control and easier handling. The final picture displays the components of each shear and the screw it pivots on. This gives a full understanding of how the product is machined and assembled, and how each part interacts to complete the task of cutting an object.
+
 
 The office scissors analyzed are the FISKARS H-1000 Office Scissors. The components that make this product are a screw used as the fulcrum, and two four inch shear blades with a four inch handle. The patent number for the specific scissors shown above is [USD383957S](https://patents.google.com/patent/USD383957S/en?oq=USD383957). The author on this patent is Robert W. Cornell. 
 
