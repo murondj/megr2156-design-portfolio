@@ -95,7 +95,7 @@ In the original patent for the office scissors, they use a pin at the fulcrum. T
 
 ## Decide
 
-
+As an engineer it is important that everything is organized and readily available. 
 ## Communicate
 
 ### Task 1 and 2: Populate the Portfolio
