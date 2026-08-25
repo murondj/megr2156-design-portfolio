@@ -100,7 +100,11 @@ The objectives for this section is to implement a design choice and defend the p
 
 As an engineer it is important that everything is organized and readily available. It is also important to be able to sell yourself to an employer and exemplify your work. The home page should have a very brief summary of what the user is expecting to see when entering the portfolio. There should be no confusion on where anything is or how to navigate the site. This home page is kept short, explaining the main function of the portfolio as a hub for the Sophomore Design Class assignments, with future intent of adding personal or career projects. 
 
-Changing the layout
+A certain design choice being modified is the headers on each assignment. When a project is completed, The name will be updated into the Assignments grouping. This will allow users to glance at the project and understand what will entail rather than needing to click through to find out. The relabeled assignment headers will eliminate the vagueness that the template already has and will allow for a more comprehensive understanding of the projects completed. 
+
+The quality standard for this site will be, "precision and clarity". All assignments will meet this standard and will be checked against it consistently to create quality work.
+
+
 ## Communicate
 
 ### Task 1 and 2: Populate the Portfolio
