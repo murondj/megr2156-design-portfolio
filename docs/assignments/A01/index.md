@@ -16,7 +16,7 @@ This task requires critical thinking and understanding of what a portfolio is. I
 
 **Case 1: Luke DeVries**  
 
-Luke DeVries is a student at University of North Carolina at Charlotte that has previously taken the Sophomore Design Class. This is the link to the website that will be analyzed: https://instructure.charlotte.edu/eportfolios/4880/welcome.  
+Luke DeVries is a student at University of North Carolina at Charlotte that has previously taken the Sophomore Design Class. This is the link to the website that will be analyzed [here](https://instructure.charlotte.edu/eportfolios/4880/welcome.)  
 
 Luke's website is easily navigated, having headers and a running list of sections down the side that showcase his work. The layout begins with a section about why the portfolio is created and its intended use. This allows for anyone accessing the website to find information needed about the author of the website and the contents of the portfolio itself based on his personal description. There is a small inconsistency that the headers of each section are labeled as "Assignment X" instead of what the project actually contains. However, this can be overlooked as the main function of the site is to display the projects specifically from the Sophomore Design Class. If and when Luke adds a personal project or other information, this should be updated with a specific header or the assignments moved to an Assignment section added later.  
 
@@ -26,7 +26,7 @@ The tone conveyed in this portfolio is mostly professional to employers and engi
 
 **Case 2: TJ Watson**
 
-TJ Watson is is a mechanical engineer that graduated from the Worcester Polytechnic Institute with a double major in Robotics Engineering and Mechanical Engineering. He currently is employed at Aurora Innovation as a Staff Hardware Engineer. This is the link to his portfolio that is being analyzed: https://www.tjwatson.net/work.html  
+TJ Watson is is a mechanical engineer that graduated from the Worcester Polytechnic Institute with a double major in Robotics Engineering and Mechanical Engineering. He currently is employed at Aurora Innovation as a Staff Hardware Engineer. This is the link to his portfolio that is being analyzed [here](https://www.tjwatson.net/work.html)  
 
 TJ's website is laid out in a simplistic way that allows the user to navigate through the tabs located at the top of the website. The user is able to find out personal information on TJ, his work experience and education, as well as information on his projects through his career. His resume is linked into the website as well for access to his employment and previous experiences. All the information on TJ's projects. Understandably, all of the projects he has worked on have limited access due to the nature of his work, but general information and patents of projects are documented as well as some pictures. A person would not be able to reproduce the work easily based on what is given, but they can find out more information based on the products on the websites. Under the assumption that not all the work is given to the public domain, the evidence of the projects TJ has worked on are only the final results, and not the whole process, so the user cannot draw conclusions based on the information given.
 
