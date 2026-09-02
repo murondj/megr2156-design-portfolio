@@ -30,7 +30,9 @@ the member BC is found to be 0.5m in length using the 3-4-5 trigonometric rule. 
 
 Now that the frame structure has been constructed, the inner member placement and static determinacy will be calculated. Two additional members will be added to the interior of the frame. Adding a joint at the midpoint of the truss will connect the two members. This brings our total members to 7 due to the splitting of the top beam. There is now a statically determinant truss since there are 7 members, 3 reaction forces, and 5 joints. Plugging this into the M+R=2J formula, it is calculated that 10=10. This means the structure is rigid and will not bend or experience torsion under a load.
 
-With the design finalized, it is now time to solve the truss under load to determine if there are any inconsistencies with the previously calculated design. Solving each joint and member symbolically first will assist in  
+With the design finalized, it is now time to solve the truss under load to determine if there are any inconsistencies with the previously calculated design. Solving each joint and member symbolically first will assist in determining symmetry. The values can be later substituted in. After solving the first two joints, the symmetry can clearly be seen as equal and opposite due to the applied loads, so only solving for the three joints on one side was necessary. Determining the zero force member where the loads were applied was also crucial in determining the members with the largest internal forces. After symbolically and numerically solving (shown below), the highest internal force members shown were the two added inner supports. These both carry a compressive and tensile load of 20.03 KN. 
+
+Using this load of 20.03 KN, the minimum cross-sectional area of the truss can be calculated. Shown below, it can be seen that the final minimum area of the beams need to be 189.47 mm^2. 
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
