@@ -22,6 +22,8 @@ The picture below shows the current constraints for designing the truss.
 
 The first step in analyzing and designing a truss is to research the types of trusses already available. There is no need to reinvent the wheel if someone has already optimized a design choice. Judging by the two load points C and D, a triangular point truss will not work. This narrows the choices down to a [Warren](https://en.wikipedia.org/wiki/Warren_truss), [Howe](https://en.wikipedia.org/wiki/Howe_truss), or [Pratt](https://en.wikipedia.org/wiki/Truss_bridge#Pratt_truss) truss. Using a trapezoidal shape and the least amount of material possible, A Warren truss variation is the best option.
 
+
+**Designing the Truss**
 The frame of the truss is assembled first. To find the length of the beams used, trigonometric operations are needed to find BC and AD connections. These operations are carried out below. Once one is solved, symmetrical properties can be used to calculate the other. The opportunity to calculate interior angles will also be used to confirm geometry and member and pin calculations. This will also help with determining placement of inner members.
 
 the member BC is found to be 0.5m in length using the 3-4-5 trigonometric rule. It can be double-checked using Pythagoras Theorem. Our truss geometry becomes **AB = 1.2m, BC = 0.5m, CD = 0.4m, and DA = 0.5m**.
