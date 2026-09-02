@@ -26,7 +26,9 @@ The frame of the truss is assembled first. To find the length of the beams used,
 
 the member BC is found to be 0.5m in length using the 3-4-5 trigonometric rule. It can be double-checked using Pythagoras Theorem. Our truss geometry becomes **AB = 1.2m, BC = 0.5m, CD = 0.4m, and DA = 0.5m**.
 
-Now that the frame structure has been constructed, the inner member placement and static determinacy will be calculated. Two additional members will be added to the interior of the frame. Adding a joint at the midpoint of the truss will connect the two members. This brings our total members to 7 due to the splitting of the top beam. We now have a statically determinant truss since there are 
+Now that the frame structure has been constructed, the inner member placement and static determinacy will be calculated. Two additional members will be added to the interior of the frame. Adding a joint at the midpoint of the truss will connect the two members. This brings our total members to 7 due to the splitting of the top beam. There is now a statically determinant truss since there are 7 members, 3 reaction forces, and 5 joints. Plugging this into the M+R=2J formula, it is calculated that 10=10. This means the structure is rigid and will not bend or experience torsion under a load.
+
+With the design finalized, it is now time to solve the truss under load to determine if there are any inconsistencies with the previously calculated design. Solving each joint and member symbolically first will assist in  
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
