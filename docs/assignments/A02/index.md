@@ -65,6 +65,6 @@ Shown below is the weight of the truss. As seen, the predicted mass is pretty cl
 <img width="870" height="334" alt="Screenshot 2026-09-03 005544" src="https://github.com/user-attachments/assets/c5b6c0f5-b28f-4a8a-b31d-d20955e7dc4f" />
 
 
-The truss shown below has the pins added to them, but they are hard to see. The files will be linked [here] and here to examine further. A couple of inconsistencies occurred when added. 
+The truss shown below has the pins added to them, but they are hard to see. The files will be linked [here](trussnopins.prt.1) and [here]( to examine further. A couple of inconsistencies occurred when added. 
 ## Communicate
 
