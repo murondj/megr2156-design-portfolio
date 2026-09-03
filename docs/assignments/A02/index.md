@@ -110,3 +110,7 @@ For the members of the trusses, the internal members will most likely fail due t
 ### Failure in Pins
 
 The most common failure of a pin is due to an overload in shear forces. This can come from a failure in the material being able to not properly hold a load, a statically indeterminate structure that causes torsion or bending, and general degradation of the pins due to friction. This website [here](https://struartapp.com/discussion-pin-connections-design-by-failure-modes-better/) shows a comparison between lug bolts and shows the most common methods of failure. In the case of the pins used in the truss, the best way to keep them from failing is to increase each pin to a double shear model. This halves the amount of shear force the pin takes which allows the pin to take more load. 
+
+
+## Conclusion and Insights
+This project was extremely fulfilling to complete carrying a theoretical design all the way through to a final design. Overall, it took 14 hours to complete this project over the course of 5 days. The most frustrating part of this whole assignment was fighting the CAD software. It took 4 hours alone to fix the truss how it was desired to be and uploading the material information was an hour all in itself. Nonetheless, this project was very fruitful and gave a lot of insight into the engineering process. 
