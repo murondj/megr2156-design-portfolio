@@ -36,27 +36,47 @@ The frame of the truss is assembled first. To find the length of the beams used,
 
 the member BC is found to be 0.5m in length using the 3-4-5 trigonometric rule. It can be double-checked using Pythagoras Theorem. Our truss geometry becomes **AB = 1.2m, BC = 0.5m, CD = 0.4m, and DA = 0.5m**.
 
+
+<img width="934" height="1258" alt="image" src="https://github.com/user-attachments/assets/5edc9003-4565-41e1-8d10-5fe0dbf1347a" />  
+
+
+
 Now that the frame structure has been constructed, the inner member placement and static determinacy will be calculated. Two additional members will be added to the interior of the frame. Adding a joint at the midpoint of the truss will connect the two members. This brings our total members to 7 due to the splitting of the top beam. There is now a statically determinant truss since there are 7 members, 3 reaction forces, and 5 joints. Plugging this into the M+R=2J formula, it is calculated that 10=10. This means the structure is rigid and will not bend or experience torsion under a load.
+
 
 
 ### Calculating Members of the Truss
 
 With the design finalized, it is now time to solve the truss under load to determine if there are any inconsistencies with the previously calculated design. Solving each joint and member symbolically first will assist in determining symmetry. The values can be later substituted in. After solving the first two joints, the symmetry can clearly be seen as equal and opposite due to the applied loads, so only solving for the three joints on one side was necessary. Determining the zero force member where the loads were applied was also crucial in determining the members with the largest internal forces. After symbolically and numerically solving (shown below), the highest internal force members shown were the two added inner supports. These both carry a compressive and tensile load of 20.03 KN. 
+<img width="940" height="1238" alt="image" src="https://github.com/user-attachments/assets/6accf13d-6ae3-4eb3-b984-a483027a4b8c" />  
+
 
 Using this load of 20.03 KN, the minimum cross-sectional area of the truss can be calculated. Using the yield strength of AISI 1018 Steel and the safety factor of 3.5, the final cross-sectional area can be calculated to **189.47 mm^2**. Since the beams will be solid square, each side will measure to be 13.76 mm. This will be used when designing the CAD model of the truss.
+<img width="940" height="1264" alt="image" src="https://github.com/user-attachments/assets/023456c1-1a86-45bb-817d-b790117ea7df" />
 
 
 ### Weight of the Truss
 Solving for the weight of the truss involved using the density of the steel, the minimum area calculated, and the lengths of the members. Using the minimum area calculated times the length of all the members, the total volume of the truss is calculated. Then, plugging into the formula m=DV, we get the **mass** of the truss to be 4.95 KG. to calculate the **weight** we multiply this by the gravity constant 9.81 to get 48.96 Newtons. This is considered lightweight, so even though the beams are solid, it is still the correct choice for construction.
 
+<img width="944" height="604" alt="image" src="https://github.com/user-attachments/assets/a92d3b26-676e-440e-9386-3a78868663a7" />  
+
+
 
 ### Designing the Pins
 
 Now that the truss has been assembled, the members need to be linked at pin connections. When connecting members by pins, shear force is introduced into the structure at these pins. This force runs parallel to the forces of the members on the contact surface of the pin. Using the force from the member, the minimum area of the pins can be constructed. Using tool steel yield strength, a factor safety of 4, and the internal force from member DE, the minimum area to support the truss can be calculated. This area calculated was **68.36mm^2**. Using this area, the diameter of the pins become 9.33 mm.
+<img width="844" height="652" alt="image" src="https://github.com/user-attachments/assets/8432e17a-f3c4-4064-855c-d7e62e537f4e" />
+
+The weight of the pin is determined by the area of the pin times the length of the members times 3 plus 10 mm of wiggle room. This is because at one pin three members could be attached so it needs to be at least that long. The wiggle room is for the bolt being fastened to the member. All of this is multiplied with the density. Since there are five pins this is multiplied by 5 to get the mass of the pins and then the weight can be computed
+
+<img width="948" height="652" alt="image" src="https://github.com/user-attachments/assets/3a3c4f4a-b4ac-48e1-85ad-e503172950e5" />
 
 ### CAD Modeling
 
-Creo Parametric CAD software was used to bring the design of the truss to completion. Using a no pin construction first, This is the geometry of the design
+Creo Parametric CAD software was used to bring the design of the truss to completion. Using a no pin construction first, This is the geometry of the design.
+
+<img width="2880" height="1476" alt="Screenshot 2026-09-02 195738" src="https://github.com/user-attachments/assets/1f105ea6-f13b-467e-b74e-fc796f4134ad" />
+
 
 <img width="2878" height="1482" alt="Screenshot 2026-09-03 002015" src="https://github.com/user-attachments/assets/fddf1b49-7ff0-4a88-9a96-39e7c8d4cef4" />
 
@@ -65,5 +85,28 @@ Shown below is the weight of the truss. As seen, the predicted mass is pretty cl
 <img width="870" height="334" alt="Screenshot 2026-09-03 005544" src="https://github.com/user-attachments/assets/c5b6c0f5-b28f-4a8a-b31d-d20955e7dc4f" />
 
 
-The truss shown below has the pins added to them, but they are hard to see. The files will be linked [here](trussnopins.prt.1) and [here]( to examine further. A couple of inconsistencies occurred when added. 
+The truss shown below has the pins added to them, but they are hard to see.
+#### The files will be linked [here](trussnopins.prt.1) and [here](trussusingpins.prt.1) to examine further. 
+
+
+
+<img width="2876" height="1648" alt="Screenshot 2026-09-03 015329" src="https://github.com/user-attachments/assets/78536498-c72d-43f1-81d6-629387c0e570" />
+
+Below is the individual added weight. A couple of inconsistencies occurred when added. From the five pins, you can see a mass of 3.98 Kg, which is extremely far off 0.1345 Kg. This could be from a multitude of input errors, but none were found when reviewing the tool steel input. This will have to be investigated further, as the math computed is accurate, it is just a problem with the software.
+
+<img width="848" height="368" alt="Screenshot 2026-09-03 014612" src="https://github.com/user-attachments/assets/fd102613-327e-44ce-b360-8f9817471eb2" />
+
+
+
+
+The lessons learned through this project is always check measurements. A few errors almost occurred had measurements not been rechecked, mainly when converting units. Proper planning of a project also makes completing a task far easier when having a set of goals outlined. Engineering is all about proper planning and execution. When one area lacks, a task can become harder or even dangerous depending on the job. It is important to always double and triple check work and plans to make sure you are creating the best outcome when executing a project.
+
 ## Communicate
+
+### Failures of the Truss
+
+For the members of the trusses, the internal members will most likely fail due to buckling first. This is because at a diagonal face, the member is more likely to move in the x-z plane when under stress. From the Solids class, movement in these x-z planes causes buckling. Buckling occurs when a beam or member has a compressive load that causes deformation due to the stress of a load pushing laterally along the member rather than longitudinally. You can read more about buckling [here](https://www.fidelisfea.com/post/what-is-buckling-how-do-we-calculate-it-and-why-is-it-so-important). Under the load, the AISI 1018 Steel is a ductile material. This is because it will deform rather than fracture under a compressive load due to the high yield strength of the material. The higher yield strength on a stress-strain curve allows a material to elongate more before fracture. This ductile material as well as design should still be used due to the ratio of weight to load capabilities. Even though the structure is able to buckle, The ductile material will help identify when the structure is at its max limit for holding a load. Even so, the truss is structurally able to hold over 1000 times its weight. A quick Google search also shows that AISI 1018 Steel is around 80 cents per kilogram, meaning this truss is around 3 dollars to construct. This is highly affordable and easier to maintain, as you spend less on repairs if there is some failure. To enhance the design, the middle supports cross-sectional area can be increased to allow for a heavier load to be applied. 
+
+### Failure in Pins
+
+The most common failure of a pin is due to an overload in shear forces. This can come from a failure in the material being able to not properly hold a load, a statically indeterminate structure that causes torsion or bending, and general degradation of the pins due to friction. This website [here](https://struartapp.com/discussion-pin-connections-design-by-failure-modes-better/) shows a comparison between lug bolts and shows the most common methods of failure. In the case of the pins used in the truss, the best way to keep them from failing is to increase each pin to a double shear model. This halves the amount of shear force the pin takes which allows the pin to take more load. 
