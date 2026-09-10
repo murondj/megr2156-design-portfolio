@@ -26,6 +26,7 @@ The parameters state a force between **300-500 lbf** is chosen, the max axial de
 The chosen force load for the Parametric analysis was **400 lbf**. The chosen diameter of the rod is **0.75 inches**. Since the rod is circular, there is no need for a height or width dimension, just the diameter of the bar. The chosen Aluminum is [**Aluminum 6061 T6**](https://www.glemco.com/capabilities/material-expertise/aluminum-6061-t6/) with a Young's Modulus of **10,000 ksi or 68.9 GPa**. These will be used to calculate the max length of the bar.
 
 Using Hooke's Law, the stress, and the strain equations, the length of the bar can be determined. Rearranging Hooke's Law where the Young's Modulus is equal to the Stress over the Strain. Substituting the Stress formula (F/A) and the Strain Formula (Delta L /L),  The new formula is E = F(Delta L)/LA. Solving for the change in length, or the deformation, the new formula is Delta = FL/EA. This equation can be used to solve for the length. To get the length the formula becomes L = Delta(EA)/F. Using the numbers given the calculated length becomes **L = 99.4 inches.**
+<img width="894" height="750" alt="image" src="https://github.com/user-attachments/assets/ffc8522e-3d2a-40a6-9f99-09dac0a6b745" />
 
 
 ### Creo Parametric Solving  
@@ -80,11 +81,16 @@ The mesh is added to the beam and the solver is ready to run. From the beam solv
 #### Von Mises Analysis
 The Von Mises is well below the max allowable stress of 40 ksi at 2.389 ksi. This gives a safety factor of **16.74**. This means the bar is extremely strong and can withstand high loads.
 
+<img width="760" height="140" alt="image" src="https://github.com/user-attachments/assets/cdd73564-a7e3-4d88-9fbb-c977ef6525cb" />
 
 <img width="2860" height="1290" alt="image" src="https://github.com/user-attachments/assets/fa2f81d6-bfd1-4065-9150-ec022b1c46fc" />
 
 #### Percent Difference and Error
 From The percent difference, there was an **88.89%** difference in the actual vs. the calculated delta. As stated above, this is due to the length of the bar and what the software is calculating. The simulation adds gravity and other factors, and the bar is subjected to these forces. The simulation is more accurate than the hand calculation due to the individual calculations it runs on the bar. Practically speaking as well, an aluminum bar that is a quarter of an inch thick and eight feet long is going to be subjected to some deformation due to the geometry of slenderness to thickness. Depending on the use of the bar, it still does have the practical applications of having a high yield stress, and can be used in an application where that is useful.
+
+
+
+<img width="578" height="158" alt="image" src="https://github.com/user-attachments/assets/dacd1a94-ef70-4ba0-a1a2-15ea54bb0be5" />
 
 
 #### Pin Hole 
