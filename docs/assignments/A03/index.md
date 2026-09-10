@@ -23,7 +23,7 @@ The parameters state a force between **300-500 lbf** is chosen, the max axial de
 
 ### Parametric Parameters
 
-The chosen force load for the Parametric analysis was **400 lbf**. The chosen diameter of the rod is **0.75 inches**. Since the rod is circular, there is no need for a height or width dimension, just the diameter of the bar. The chosen Aluminum is **Aluminum 6061 T6** with a Young's Modulus of **10,000 ksi or 68.9 GPa**. These will be used to calculate the max length of the bar.
+The chosen force load for the Parametric analysis was **400 lbf**. The chosen diameter of the rod is **0.75 inches**. Since the rod is circular, there is no need for a height or width dimension, just the diameter of the bar. The chosen Aluminum is [**Aluminum 6061 T6**](https://www.glemco.com/capabilities/material-expertise/aluminum-6061-t6/) with a Young's Modulus of **10,000 ksi or 68.9 GPa**. These will be used to calculate the max length of the bar.
 
 Using Hooke's Law, the stress, and the strain equations, the length of the bar can be determined. Rearranging Hooke's Law where the Young's Modulus is equal to the Stress over the Strain. Substituting the Stress formula (F/A) and the Strain Formula (Delta L /L),  The new formula is E = F(Delta L)/LA. Solving for the change in length, or the deformation, the new formula is Delta = FL/EA. This equation can be used to solve for the length. To get the length the formula becomes L = Delta(EA)/F. Using the numbers given the calculated length becomes **L = 99.4 inches.**
 
@@ -83,8 +83,29 @@ The Von Mises is well below the max allowable stress of 40 ksi at 2.389 ksi. Thi
 
 <img width="2860" height="1290" alt="image" src="https://github.com/user-attachments/assets/fa2f81d6-bfd1-4065-9150-ec022b1c46fc" />
 
-
+#### Percent Difference and Error
 From The percent difference, there was an **88.89%** difference in the actual vs. the calculated delta. As stated above, this is due to the length of the bar and what the software is calculating. The simulation adds gravity and other factors, and the bar is subjected to these forces. The simulation is more accurate than the hand calculation due to the individual calculations it runs on the bar. Practically speaking as well, an aluminum bar that is a quarter of an inch thick and eight feet long is going to be subjected to some deformation due to the geometry of slenderness to thickness. Depending on the use of the bar, it still does have the practical applications of having a high yield stress, and can be used in an application where that is useful.
 
-## Communicate
 
+#### Pin Hole 
+
+Putting a substantially sized pin hole in the left face of the bar will cause the nominal stress to increase dramatically on the edges. A theoretical hole the size of 0.15 inches gives an inner/outer diameter ratio of 0.2. Converting this value with a K(t) table gives approximately 2.50, depending on which one is used. Multiplying this factor with the nominal stress gives **5.97 ksi**. This is a dramatic increase of stress on the bar. So much so, that the safety of factor drops from 16.74 to 6.7. While this is still safe for the designed metal bar, it is important to pay attention to this, as the bar could now deform more potentially in the axial deformation.
+### CAD Files Here
+
+### Modified Design Parameters
+
+Judging from the previous failure of the bar, the bar will now be changed in diameter. This will test to see if there can be an optimized design to use. The new diameter will be **0.35 inches**. This new diameter gives a length of **21.65 inches**. With this new diameter, the expected deformation will decrease since there is less material that is able to be deformed.
+
+
+<img width="2878" height="1502" alt="image" src="https://github.com/user-attachments/assets/26a986a4-9638-4aca-ab2f-137cd7b03b2b" />
+
+While the deformation was lower, it was not lower by much. This leads to the conclusion that this material might be too prone to deformation under the load applied. Picking a stiffer material like steel might be better equipped to handle a load applied in this certain direction.
+
+<img width="2856" height="1272" alt="image" src="https://github.com/user-attachments/assets/ec2e7a9c-1edd-4557-8663-c06509a59a26" />
+
+
+
+## Communicate
+The lesson learned from this project is bigger is not always better. A large radius for the beam was chosen to maximize the amount of strength for the parameters. However, the design ran into new problems of how it would be able to support itself. Always try to maximize a design, but also factor in the actual material of your product and how it interacts with everything around it. Also, it is important to take into account the force applied to a load and how that load will affect your design and material.
+
+This project took approximately 6 hours to complete over the span of 2 days. 
