@@ -96,7 +96,9 @@ From The percent difference, there was an **88.89%** difference in the actual vs
 #### Pin Hole 
 
 Putting a substantially sized pin hole in the left face of the bar will cause the nominal stress to increase dramatically on the edges. A theoretical hole the size of 0.15 inches gives an inner/outer diameter ratio of 0.2. Converting this value with a K(t) table gives approximately 2.50, depending on which one is used. Multiplying this factor with the nominal stress gives **5.97 ksi**. This is a dramatic increase of stress on the bar. So much so, that the safety of factor drops from 16.74 to 6.7. While this is still safe for the designed metal bar, it is important to pay attention to this, as the bar could now deform more potentially in the axial deformation.
-### CAD Files Here
+
+
+### CAD Files [Here](axialdeformationparametric.prt.1) and [Here](FEA_BEAM.f3d)
 
 ### Modified Design Parameters
 
