@@ -35,6 +35,36 @@ The variable calculated above needs to be verified with CAD software. Using the 
 <img width="2328" height="1698" alt="Screenshot 2026-09-08 215218" src="https://github.com/user-attachments/assets/06445964-2eda-476c-b60b-8495d1210351" />
 
 
+Once the file has been loaded into Creo, a dimension is needed to set the relations for the bar. The chosen diameter is inserted and the circle is sketch with a temporary extrusion.
+
+<img width="2880" height="1254" alt="image" src="https://github.com/user-attachments/assets/0259419e-3b02-46ba-841c-f5abf8620f97" />
+
+Now that there is a temporary place holder, the parameters can be defined for the bar. Going to the relations tool and switching dimension modes, the variable names for the diameter and length can be found. After this, the deformation formula is coded into the software as well as the variables used. Since the Aluminum 6061 T6 material property is already loaded into the software, some of the data can be pulled from that file.
+
+<img width="2872" height="1488" alt="image" src="https://github.com/user-attachments/assets/c9279727-a922-4c4e-be22-67006267d8ad" />
+
+
+After verifying that the relations will work and there are no errors in the coding, it is time to test the result.
+
+<img width="2880" height="1482" alt="image" src="https://github.com/user-attachments/assets/29414a09-12a4-44fd-88ec-ec47327e840c" />
+
+
+Immediately off the bat, something is wrong. The length becomes 38,000 inches long. Checking the material file, there was an error when loading the properties.
+
+<img width="1254" height="1556" alt="image" src="https://github.com/user-attachments/assets/e5557dc9-b0ba-4ca7-b5e7-c42eb13f75e5" />
+
+
+
+
+For some reason, Creo decided that it was going to convert the properties in a way that cannot even be calculated. Fixing this will hopefully scale our model to the correct length. Reverting all the measurements back to the original values, this was the result.
+
+<img width="2880" height="1494" alt="image" src="https://github.com/user-attachments/assets/1b70264c-a2b0-4e56-bbae-6c0f0f89f79b" />
+
+
+This matches perfectly with the predicted length of 99.4 inches. Since the diameter variable is arbitrary, it can be changed later on when calculating a new diameter and new force. 
+
+
+### Creo FEA
 
 
 ## Communicate
