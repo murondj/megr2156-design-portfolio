@@ -61,11 +61,30 @@ For some reason, Creo decided that it was going to convert the properties in a w
 <img width="2880" height="1494" alt="image" src="https://github.com/user-attachments/assets/1b70264c-a2b0-4e56-bbae-6c0f0f89f79b" />
 
 
-This matches perfectly with the predicted length of 99.4 inches. Since the diameter variable is arbitrary, it can be changed later on when calculating a new diameter and new force. 
+This matches perfectly with the predicted length of 99.4 inches. Since the diameter variable is arbitrary, it can be changed later on when calculating a new diameter and new force. Unfortunately, the Creo Simulate software license for students does not exist, so moving over to Fusion, the parameters will be translated over there. 
 
 
-### Creo FEA
 
+
+### Fusion FEA
+The bar has been parametrically constrained now into Fusion. Applying a fixed end and a load of 400 lbf on the opposite end of the bar will give this configuration.
+
+<img width="2880" height="1428" alt="image" src="https://github.com/user-attachments/assets/22f11284-6619-475d-ae1e-1a7c6b80ba59" />
+
+
+
+#### Deflection
+The mesh is added to the beam and the solver is ready to run. From the beam solver, there is a max displacement of 0.017 inches. This is bad, extremely out of range. After an hour of troubleshooting, those are the correct results. Researching the topic further and looking at Fusion software, this is also accounting for gravity and weight of the bar. Since the bar is acting like a column, the slenderness to smallest radius of gyration is too large, causing a moment. This is causing the bar mainly to deform and bend in the z direction, but also affecting the other measurements.
+<img width="2858" height="1272" alt="image" src="https://github.com/user-attachments/assets/c6bea89a-7173-4431-8291-f858ccb3b775" />
+
+#### Von Mises Analysis
+The Von Mises is well below the max allowable stress of 40 ksi at 2.389 ksi. This gives a safety factor of **16.74**. This means the bar is extremely strong and can withstand high loads.
+
+
+<img width="2860" height="1290" alt="image" src="https://github.com/user-attachments/assets/fa2f81d6-bfd1-4065-9150-ec022b1c46fc" />
+
+
+From The percent difference, there was an **88.89%** difference in the actual vs. the calculated delta. As stated above, this is due to the length of the bar and what the software is calculating. The simulation adds gravity and other factors, and the bar is subjected to these forces. The simulation is more accurate than the hand calculation due to the individual calculations it runs on the bar. Practically speaking as well, an aluminum bar that is a quarter of an inch thick and eight feet long is going to be subjected to some deformation due to the geometry of slenderness to thickness. Depending on the use of the bar, it still does have the practical applications of having a high yield stress, and can be used in an application where that is useful.
 
 ## Communicate
 
