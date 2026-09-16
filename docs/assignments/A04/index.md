@@ -11,5 +11,15 @@ This assignment task is given below.
 <img width="1400" height="744" alt="image" src="https://github.com/user-attachments/assets/fbf41493-ccb2-481b-8cd4-5f6a152538e1" />
 
 
+
+
+## Decide
 Using these specifications, a motor mount will be designed. After some research online, most motor mounts use an L-shape bracket to hold the motor. This allows for ease of installment, distribution of mechanical stresses, and allows for compact storage of the motor in a design. After researching the materials, the best material for this design is PLA. While the filament is not very heat resistant, ABS can warp while being printed causing mechanical failure immediately, and while PETG is strong and durable, it is moisture sensitive and can cause printing problems while being assembled. Since this is a prototype, PLA fits the requirements the best. The final design should be made out of a metal that can be researched later.
 
+PLA (PolyLactic Acid) has an Elastic Modulus of around 3,500 MPa, assuming a solid fill for the design, which is what will be assumed from here. The yield strength of PLA can range anywhere from 35-60 MPa depending on printing orientation, molding, and infill of the parts. To simplify, it will be assumed middle range of 47.5 MPa for the tensile yield strength. 
+
+### Feature 1: Motor Housing
+
+Feature 1 will have where the motor will sit on the plate. There will be a slight indentation to hold the motor in place. From earlier assumptions, this plate will be treated as a cantilever beam. The cross-sectional area needs to be calculated from the max strength and stiffness. To get these measurements, the length and width of the plate must be determined. Using the 22mm diameter, the motor should have some clearance from feature 2. With this in mind, a design that should be implemented is a filleted corner intersect between 1 and 2, so a 50mm plate length and width will be enough to account for bolts and wall clearance from Feature 2. On Feature 1 the force of the motor is 300 N. If it is centered on the 50mm plate, that force is acting at 25mm. The problem now is there needs to be clearance from the wall so the motor is not directly on top of feature 2. If the radius of the motor is 11mm, a clearance of 13mm will be enough for the motor to work. To find the height for the beam, a comparison for the stress allowed and the deflection will give a height of the beam that will fit the parameters. For allowable stress, the formula is equal to the Bending moment of the beam times the distance from neutral axis, divided by the moment of inertia. To solve for the height of the beam, I can be substituted with bh^3/12, M can be substituted with PL, and y can be substituted with h/2. Rearranging and algebraically solving for height, the new formula becomes h = square root of 6PL/b(allowed stress). With a safety factor of 3, the allowed stress becomes 15.83 MPa. Solving for h using allowed stress, it is calculated to be the minimum height needed to support the load under stress is **5.44 mm**.
+
+For solving the minimum height with deflection
