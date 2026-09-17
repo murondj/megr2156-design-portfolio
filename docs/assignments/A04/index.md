@@ -14,13 +14,13 @@ This assignment task is given below.
 
 
 ## Decide
-Using these specifications, a motor mount will be designed. After some research online, most motor mounts use an L-shape bracket to hold the motor. This allows for ease of installment, distribution of mechanical stresses, and allows for compact storage of the motor in a design. After researching the materials, the best material for this design is PLA. While the filament is not very heat resistant, ABS can warp while being printed causing mechanical failure immediately, and while PETG is strong and durable, it is moisture sensitive and can cause printing problems while being assembled. Since this is a prototype, PLA fits the requirements the best. The final design should be made out of a metal that can be researched later.
+Using these specifications, a motor mount will be designed. After some research online, most motor mounts use an L-shape bracket to hold the motor. This allows for ease of installment, distribution of mechanical stresses, and allows for compact storage of the motor in a design. After researching the materials, the best material for this design is **PLA**. While the filament is not very heat resistant, ABS can warp while being printed causing mechanical failure immediately, and while PETG is strong and durable, it is moisture sensitive and can cause printing problems while being assembled. Since this is a prototype, PLA fits the requirements the best. The final design should be made out of a metal that can be researched later.
 
 PLA (PolyLactic Acid) has an Elastic Modulus of around 3,500 MPa, assuming a solid fill for the design, which is what will be assumed from here. The yield strength of PLA can range anywhere from 35-60 MPa depending on printing orientation, molding, and infill of the parts. To simplify, it will be assumed middle range of 47.5 MPa for the tensile yield strength. 
 
 ### Feature 1: Motor Housing
 
-Feature 1 will have where the motor will sit on the plate. There will be a slight indentation to hold the motor in place. From earlier assumptions, this plate will be treated as a cantilever beam. The cross-sectional area needs to be calculated from the max strength and stiffness. To get these measurements, the length and width of the plate must be determined. Using the 22mm diameter, the motor should have some clearance from feature 2. With this in mind, a design that should be implemented is a filleted corner intersect between 1 and 2, so a 50mm plate length and width will be enough to account for bolts and wall clearance from Feature 2. On Feature 1 the force of the motor is 300 N. If it is centered on the 50mm plate, that force is acting at 25mm. The problem now is there needs to be clearance from the wall so the motor is not directly on top of feature 2. If the radius of the motor is 11mm, a clearance of 13mm will be enough for the motor to work.
+Feature 1 will have where the motor will sit on the plate. There will be a slight indentation to hold the motor in place. From earlier assumptions, this plate will be treated as a cantilever beam. The cross-sectional area needs to be calculated from the max strength and stiffness. To get these measurements, the length and width of the plate must be determined. Using the 24mm diameter, the motor should have some clearance from feature 2. With this in mind, a design that should be implemented is a filleted corner intersect between 1 and 2, so a 50mm plate length and width will be enough to account for bolts and wall clearance from Feature 2. On Feature 1 the force of the motor is 300 N. Giving 13mm of clearance from the wall of feature 2 will allow the motor to have enough clearance to run.
 
 To find the height for the beam, a comparison for the stress allowed and the deflection will give a height of the beam that will fit the parameters. For allowable stress, the formula is equal to the Bending moment of the beam times the distance from neutral axis, divided by the moment of inertia. To solve for the height of the beam, I can be substituted with bh^3/12, M can be substituted with PL, and y can be substituted with h/2. Rearranging and algebraically solving for height, the new formula becomes h = square root of 6PL/b(allowed stress). With a safety factor of 3, the allowed stress becomes 15.83 MPa. Solving for h using allowed stress, it is calculated to be the minimum height needed to support the load under stress is **5.44 mm**.
 
@@ -39,4 +39,33 @@ Using Fusion 360 software a general sketch using the lengths and thicknesses fro
 
 <img width="2866" height="1340" alt="image" src="https://github.com/user-attachments/assets/87e47b91-ef88-410b-99f2-482ea8d227c6" />
 
-Adding these dimensions to the parametric equation sheet as well for ease of changing later. 
+Adding these dimensions to the parametric equation sheet as well for ease of changing later. Next Feature 2 is added to Feature 1. Since the thickness is already at 5.5mm, adding 20mm will be good for the height. This is also added in the parametric equations. 
+
+<img width="2868" height="1302" alt="image" src="https://github.com/user-attachments/assets/5ce79cb3-3874-4de6-9cd3-8aca18524202" />
+
+
+The next step is to add the hole where the motor mount will come through. This is 13mm away from the inside facing wall. The radius circle outside of that which will hold the motor in place. Finally, the fastener M3 holes will be added into this circle. All of this can be parametrically combined into one part. adding a sinking rest allows the motor to also be more secure in the mount. A fillet just under the clearance of 3.3 set at 2.5mm will be enough for the inside while the outside fillet will be 3mm. This gives the design extra deflection and also spreads the area of the part out larger, allowing for a larger bending moment. 
+
+
+<img width="2874" height="1324" alt="image" src="https://github.com/user-attachments/assets/132b1d35-d15f-47f5-97b3-b208f950e741" />
+
+To finalize the design, the fastener holes to attach the mount need to be added in. This will also be parametrically determined. The edge of the holes needs to be 5mm from each corner. 
+
+<img width="2880" height="1440" alt="image" src="https://github.com/user-attachments/assets/1860fae9-c5e9-4a05-8d51-5c9972757a92" />
+
+Here are the parametric equations used.
+
+
+<img width="2370" height="962" alt="image" src="https://github.com/user-attachments/assets/452cd8c5-2528-4143-b0ee-c7a7679a2e0a" />
+
+
+
+### CAD Drawing
+<img width="1676" height="1200" alt="image" src="https://github.com/user-attachments/assets/4b4fe76b-8dad-4498-9caa-976049f1cb1e" />
+
+### Files For CAD Work
+Here are the files for the CAD work completed.
+
+[MotorMount.pdf](https://github.com/user-attachments/files/32318567/MotorMount.pdf)
+
+
