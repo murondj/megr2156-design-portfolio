@@ -28,6 +28,15 @@ For solving the minimum height with deflection, start with the deflection formul
 
 From these calculations, the allowable stress will fail before the beam reaches a max deformation of 0.3mm. Therefore, the chosen minimum height requirement will be 5.44 mm. This is within the tolerance of the motor driver that has a 6mm tolerance. For a little wiggle room, the height will be moved up to **5.50 mm.**
 
+Notice how 13mm length is not a lot of room for clearance with the motor having an 11mm diameter. This only gives us a wall that can be about 10mm thick max.
 ### Feature 2
 
-Much like Feature 1, the minimum height needs to be calculated for the mount part.
+Much like Feature 1, the minimum height needs to be calculated for the mount part. Since the end is free to bend on this part, there is a much larger bending moment on feature 2. To mitigate this, the height will be dropped from 50mm to 25.5mm. Note this includes the 5.5mm from feature 1 at the bottom. Using the same formulas from earlier, with the new calculated bending moment of 300*25.5, the calculated minimum height (or thickness rather) for stress becomes **7.62 mm** and 7.24 mm. Since the stress failure is a larger thickness, 7.62mm will be used. Giving some more wiggle room, the number goes up to 7.7mm.
+
+### Fusion Model of Mount
+
+Using Fusion 360 software a general sketch using the lengths and thicknesses from Feature 1 and Feature 2 are conducted. For the sketch, Feature 1 is 50mm long, 50mm wide and 5.5 mm thick from the top view.
+
+<img width="2866" height="1340" alt="image" src="https://github.com/user-attachments/assets/87e47b91-ef88-410b-99f2-482ea8d227c6" />
+
+Adding these dimensions to the parametric equation sheet as well for ease of changing later. 
