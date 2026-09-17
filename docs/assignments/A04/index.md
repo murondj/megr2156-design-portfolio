@@ -66,6 +66,9 @@ Here are the parametric equations used.
 ### Files For CAD Work
 Here are the files for the CAD work completed.
 
+[Motor Mount CAD File](Motor Mount.f3d) 
+
+
 [MotorMount.pdf](https://github.com/user-attachments/files/32318567/MotorMount.pdf)
 
 
