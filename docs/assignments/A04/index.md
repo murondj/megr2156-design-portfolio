@@ -24,14 +24,26 @@ Feature 1 will have where the motor will sit on the plate. There will be a sligh
 
 To find the height for the beam, a comparison for the stress allowed and the deflection will give a height of the beam that will fit the parameters. For allowable stress, the formula is equal to the Bending moment of the beam times the distance from neutral axis, divided by the moment of inertia. To solve for the height of the beam, I can be substituted with bh^3/12, M can be substituted with PL, and y can be substituted with h/2. Rearranging and algebraically solving for height, the new formula becomes h = square root of 6PL/b(allowed stress). With a safety factor of 3, the allowed stress becomes 15.83 MPa. Solving for h using allowed stress, it is calculated to be the minimum height needed to support the load under stress is **5.44 mm**.
 
+<img width="882" height="1192" alt="image" src="https://github.com/user-attachments/assets/8ec639ac-cd0c-4f14-a171-d2d4f8e8ff41" />
+
 For solving the minimum height with deflection, start with the deflection formula of a beam with delta equal to PL^3/3EI. Substituting I with bh^3/12 again, the formula can be algebraically simplified to 4PL^3/Ebh^3. To solve for h, the formula becomes the cubed root of 4PL^3/Ebdelta. The calculated value for this is **3.69 mm**.
+<img width="886" height="1206" alt="image" src="https://github.com/user-attachments/assets/5ddae212-021f-431f-ada2-7d6f38e480e5" />
 
 From these calculations, the allowable stress will fail before the beam reaches a max deformation of 0.3mm. Therefore, the chosen minimum height requirement will be 5.44 mm. This is within the tolerance of the motor driver that has a 6mm tolerance. For a little wiggle room, the height will be moved up to **5.50 mm.**
 
-Notice how 13mm length is not a lot of room for clearance with the motor having an 11mm diameter. This only gives us a wall that can be about 10mm thick max.
 ### Feature 2
 
 Much like Feature 1, the minimum height needs to be calculated for the mount part. Since the end is free to bend on this part, there is a much larger bending moment on feature 2. To mitigate this, the height will be dropped from 50mm to 25.5mm. Note this includes the 5.5mm from feature 1 at the bottom. Using the same formulas from earlier, with the new calculated bending moment of 300*25.5, the calculated minimum height (or thickness rather) for stress becomes **7.62 mm** and 7.24 mm. Since the stress failure is a larger thickness, 7.62mm will be used. Giving some more wiggle room, the number goes up to 7.7mm.
+<img width="872" height="1174" alt="image" src="https://github.com/user-attachments/assets/34ad7db7-52dd-4049-bd5e-b00f855e4804" />
+
+For the best stability, the bolts should be added 5mm away from each edge and each corner.
+<img width="904" height="618" alt="image" src="https://github.com/user-attachments/assets/d3312045-bf1d-4716-a609-162b7e12a56e" />
+
+### Isometric Drawing
+
+With the measurements calculated, an Isometric Drawing can be produced. This is not to scale but it has the correct dimensions laid out.
+<img width="898" height="892" alt="image" src="https://github.com/user-attachments/assets/f27839bd-1491-4fb8-92dc-97734d8396bd" />
+
 
 ### Fusion Model of Mount
 
@@ -66,9 +78,30 @@ Here are the parametric equations used.
 ### Files For CAD Work
 Here are the files for the CAD work completed.
 
-[Motor Mount CAD File](Motor Mount.f3d) 
+[Motor Mount CAD File](MotorMount.f3d) 
 
 
 [MotorMount.pdf](https://github.com/user-attachments/files/32318567/MotorMount.pdf)
+
+### Communicate
+
+This weeks project was really straight-forward. Having already taken Solid Mechanics, it was good to review beam bending moments and deflections, as this is one of the trickier concepts in the class. Good research during this project allowed for a smooth completion with very few hiccups. It is always important to look at a design and research everything possible before actually doing any calculations.
+
+This project took 4 hours to complete over the span of one day.
+
+
+### Appendix
+
+Motor Mount Schematic
+<img width="1424" height="650" alt="image" src="https://github.com/user-attachments/assets/ce86f0b5-fd93-4dbf-aeff-7fdc1a69a3bb" />
+
+Web Link to Material [Here](https://www.matweb.com/search/DataSheet.aspx?MatGUID=ab96a4c0655c4018a8785ac4031b9278&ckck=1)
+
+About [ABS](https://facfox.com/docs/kb/abs-filament-review-pros-cons)
+
+About [PETG](https://facfox.com/docs/kb/petg-filament-review-pros-cons-waterproof-3d-printing)
+
+
+Bracket design inspirations [Here](https://www.gobilda.com/motor-mounts?srsltid=AU7gw4WnG02hPHx3TVJZcmTwYRFiN9ISnSYF8lXibE9nqPYioQQs3PmV) 
 
 
