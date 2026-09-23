@@ -21,7 +21,11 @@ The constraints from the assignment are listed in the image below.
 
 
 ## Decide
-Since the range of the force is between 500 and 800 lbf, a force of **600 lbf** will be chosen for the design to support. Already familiar with the mechanical properties of **Aluminum 6061 T6**, this material will be used for the construction and the assumptions of the bracket. An assumption of how big the polyester strap is needs to be made to be able to create the design. Assuming the strap has a 2.o inch width, the length of the first feature that holds the strap will be **2.5 inches** in length. Another assumption that the shape of the bracket will have symmetry over a vertical axis will also halve the work and the force chosen. 
+Since the range of the force is between 500 and 800 lbf, a force of **600 lbf** will be chosen for the design to support. Already familiar with the mechanical properties of **Aluminum 6061 T6**, this material will be used for the construction and the assumptions of the bracket. An assumption of how big the polyester strap is needs to be made to be able to create the design. Assuming the strap has a 0.75 inch width, the length of the first feature that holds the strap will be **1.25 inches** in length. Another assumption that the shape of the bracket will have symmetry over a vertical axis will also halve the work and the force chosen. 
 
+
+### Feature A
+
+Feature A is the cylindrical strap holder on the bottom of the bracket that is meant to hold the weight. Assume that the feature will not fail in shear, that the average shear stress will be able to hold the strap, and 
 ## Communicate
 
