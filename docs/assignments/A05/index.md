@@ -43,5 +43,17 @@ Using the axial deformation formula of delta = FL/EA, and substituting A again f
 Judging the two calculated minimum diameters, Feature B must have a minimum diameter of **0.048 in**. To streamline the design, this value will also be moved to a better manufacturing variable of 1/16 of an inch or **0.0625 in**. 
 
 ### Feature C
+
+Feature C is the bottom base of the clutch of the bracket. It is assumed to be a simply supported beam with a concentrated load at the center. The feature will also not fail due to direct shear stress. An assumed length and width of the feature will be **2 in**. 
+
+Using the stress formula for a simply supported beam with a center load (sigma=MC/I), M can be substituted with FL/4, c can be subbed with t/2, and I can be substituted with bt^3/12. Algebraically solving for the minimum thickness yields the formula t=root1.5FL/bsigma. Accounting for the safety factor, the minimum thickness for Feature C due to stress constraints is **0.212 in**.
+
+To get minimum thickness from the stiffness formula, delta=WL^3/48EI, substitute I for bt^3/12. Algebraically solving for minimum thickness will yield the formula tmin= cube root FL^3/4Ebdelta. This yields a result of **0.182 in** as a minimum thickness.
+
+Failure from stress determines the driving dimensions for the feature again. To make the part easier to manufacture, the thickness will be taken up to **0.25 in** or 1/4 inch thick plate. 
+
+### Feature D
+
+
 ## Communicate
 
