@@ -28,12 +28,20 @@ Since the range of the force is between 500 and 800 lbf, a force of **600 lbf** 
 
 Feature A is the cylindrical strap holder on the bottom of the bracket that is meant to hold the weight from the strap and drive the dimensions of the bracket. Assume that the feature will not fail in shear, that the average shear stress will be able to hold the strap, and that Feature A acts as a cantilever beam. Using these assumptions, the minimum diameter can be calculated. Using the Section Modulus relationship to the diameter of a cantilever beam, the formula is Z=(SF*W*l)/2*Sy. This relates the stress from the bending moment to the diameter of the beam. Solving for Z and setting it equal to the bending moment formula for a cylindrical beam, the calculated minimum diameter due to failure from bending stress is **0.576 in**.
 
-To solve for failure of the beam due to deflection, assuming Feature A acts like a cantilever beam under uniform load, the formula to drive this calculation is sigma=W*L^3/8EI. Substituting the Moment of Inertia formula (I) for pid^4/64, the diameter can be calculated. Rearranging the formula to quad root of 8*W*L^3/pi*E*Sigma, the calculated diameter for failure from deflection is **0.416 in**
+To solve for failure of the beam due to deflection, assuming Feature A acts like a cantilever beam under uniform load, the formula to drive this calculation is delta=WL^3/8EI. Substituting the Moment of Inertia formula (I) for pid^4/64, the diameter can be calculated. Rearranging the formula to quad root of 8*W*L^3/pi*E*delta, the calculated diameter for failure from deflection is **0.416 in**
 
 Comparing the two diameters, the feature will most likely fail due to stress before deflection. Therefore the minimum diameter of feature A is **0.576 in**. Since the design is being streamlined, the bar will be sized up to **0.625 in** or 5/8 of an inch. This is a more common bar size and does not interfere with the minimum diameter. The size may be changed later if it does not meet the required constraints. 
 
 ### Feature B
 
-Feature B connects Feature A to the main clutch section of the bracket. It is assume to be treated as an axially loaded bar. It will also have a uniform cross-sectional area and no bending. 
+Feature B connects Feature A to the main clutch section of the bracket. It is assume to be treated as an axially loaded bar. It will also have a uniform cross-sectional area and no bending. Like Feature A, Feature B will not fail due to direct shear stress. To give the clutch of the bracket clearance from Feature A, an assumed length of **2 inches** will be used for Feature B. The width of the bar will connect Feature A to Feature B so it will carry the same length as the diameter of feature A which is **0.625 inches**.
+
+Treating Feature B as a bar with an axial load, the formula for stress becomes sigma = F/A. Replacing A with wt will allow for the minimum thickness of the piece to be calculated. Factoring in the safety factor, the calculated result becomes **0.048 in** as a minimum diameter due to failure from stress.
+
+Using the axial deformation formula of delta = FL/EA, and substituting A again for wt, a calculated minimum diameter becomes **0.0192 in**.
+
+Judging the two calculated minimum diameters, Feature B must have a minimum diameter of **0.048 in**. To streamline the design, this value will also be moved to a better manufacturing variable of 1/16 of an inch or **0.0625 in**. 
+
+### Feature C
 ## Communicate
 
