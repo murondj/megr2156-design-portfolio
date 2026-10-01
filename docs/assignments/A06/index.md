@@ -74,7 +74,18 @@ The drawing on the CAD model has two hole callouts with ASME Y14.5 standards. Th
 
 
 
-## CAD FILES 
+## CAD FILES And Drawings
+
+[Bracket Design](BracketDesign.f3d)
+
+[Link Design](BracketLink.f3d)
+
+[Bracket Design Drawing.pdf](https://github.com/user-attachments/files/32889916/Bracket.Design.Drawing.pdf)
+
+[Bracket Link Drawing.pdf](https://github.com/user-attachments/files/32889924/Bracket.Link.Drawing.pdf)
+
+
+
 ## Communicate
 
 ### Reflections and Insight
