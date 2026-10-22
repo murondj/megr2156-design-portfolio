@@ -30,7 +30,7 @@ Force and Mesh Applied:
 Percent difference and all measurements will be put into Excel and calculated. An evaluation will appear after discussing the results.
 
 ## Decide
-The second design, the walls of the bracket will all be the same width for a more uniform structure, while adding ribs to the plate connecting the bracket and shaft. This will keep the plate from bending. The third design will help solve the stress in the shaft. The end of the rod will be connected to the sliding part of the bracket.
+The second design, the walls of the bracket will all be the same width for a more uniform structure, while adding more rigid support to the plate connecting the bracket and shaft. This will keep the plate from bending. The third design will help solve the stress in the shaft. The end of the rod will be connected to the sliding part of the bracket.
 
 ### Design 1 - Initial Design of Bracket
 Running the initial stress test shows a lot of area for improvement. Below shows the FOS, max stress, and max location on the part:
@@ -70,63 +70,60 @@ Iteration 3:
 
 
 Table: 
+<img width="1912" height="258" alt="image" src="https://github.com/user-attachments/assets/66703caa-dc71-47e7-9f76-0e16cf2a6638" />
 
+From the results, this design is unreliable due to the lack of convergence. While it converges on deflection, it is invalid and design needs to be redefined. Seeing the highest points of variability are the flange and the shaft.
 
-### Design 2 - Increased Width of Fixture and Ribs
-Running the initial stress test shows a lot of area for improvement. Below shows the FOS, max stress, and max location on the part:
+### Design 2 - Increased Width of Fixture and Extra plating
+This design will increase the strength on the flange. Increasing the width allows for a more uniform and stable strength around the bracket.
+
+<img width="2874" height="1316" alt="image" src="https://github.com/user-attachments/assets/96f35a3e-e546-458d-97c8-1a7ab0cec408" />
 
 #### FOS Design 2:
 
 Iteration 1:
+<img width="2880" height="1388" alt="image" src="https://github.com/user-attachments/assets/1e3280b4-1996-41df-a3d8-7891634c69fd" />
 
 
 Iteration 2:
-
-
-
+<img width="2876" height="1294" alt="image" src="https://github.com/user-attachments/assets/21960bdd-5b87-4ebd-b2aa-9ebaab28b0f0" />
 
 Iteration 3:
-
-
-
+<img width="2840" height="1242" alt="image" src="https://github.com/user-attachments/assets/5bfa4baa-dcc5-4b6f-8380-362d4ac64893" />
 
 #### Stress Design 2:
 
 Iteration 1:
-
+<img width="2856" height="1244" alt="image" src="https://github.com/user-attachments/assets/8f9d8ef9-d235-4788-83bd-250a300ac589" />
 
 
 Iteration 2: 
-
-
-
+<img width="2880" height="1270" alt="image" src="https://github.com/user-attachments/assets/16f681cc-6f86-49c0-aab4-50b094d915ec" />
 
 Iteration 3:
-
-
+<img width="2856" height="1278" alt="image" src="https://github.com/user-attachments/assets/f63139f5-ab3c-48c9-8f03-47f5700f8653" />
 
 ### Deflection Design 2: 
 
 Iteration 1:
-
-
-
+<img width="2876" height="1294" alt="image" src="https://github.com/user-attachments/assets/e0ed1ff2-047d-4a9f-9c67-242d7ee5746b" />
 
 Iteration 2:
-
-
+<img width="2878" height="1324" alt="image" src="https://github.com/user-attachments/assets/ed0ee2d9-a562-4717-9a52-19796cd9a70f" />
 
 Iteration 3:
-
-
-
-
+<img width="2880" height="1316" alt="image" src="https://github.com/user-attachments/assets/f0b9362b-6f03-4eb7-9aaa-950dae830a75" />
 
 
 Table: 
+<img width="1996" height="214" alt="image" src="https://github.com/user-attachments/assets/47828f09-9f07-46b2-8299-4d3e348b8093" />
+
+
+The results from this iteration were very promising. The stress has gone way down as well as the deflection. While it did not converge, the results show that the iterations are getting more similar. The factor of safety and stress are both very close in percent difference. This means the design is becoming more uniform. Issues with this design are the weight being too high and too much material. For the next design, the material added will be thinned out and also a fixture at the end of the shaft will be added for the end of the bar 
+
 
 ### Design 3 - Supporting connection on end of Fixture
-Running the initial stress test shows a lot of area for improvement. Below shows the FOS, max stress, and max location on the part:
+For this 
 
 #### FOS Design 3:
 
