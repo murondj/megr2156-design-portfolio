@@ -30,7 +30,7 @@ Force and Mesh Applied:
 Percent difference and all measurements will be put into Excel and calculated. An evaluation will appear after discussing the results.
 
 ## Decide
-The second design, the walls of the bracket will all be the same width for a more uniform structure, while adding more rigid support to the plate connecting the bracket and shaft. This will keep the plate from bending. The third design will help solve the stress in the shaft. The end of the rod will be connected to the sliding part of the bracket.
+The second design, the walls of the bracket will all be the same width for a more uniform structure, while adding more rigid support to the plate connecting the bracket and shaft. This will keep the plate from bending. The third design will help improve on the second design by becoming a more applicable model adding extra support fixture closer to the end.
 
 ### Design 1 - Initial Design of Bracket
 Running the initial stress test shows a lot of area for improvement. Below shows the FOS, max stress, and max location on the part:
@@ -122,58 +122,56 @@ Table:
 The results from this iteration were very promising. The stress has gone way down as well as the deflection. While it did not converge, the results show that the iterations are getting more similar. The factor of safety and stress are both very close in percent difference. This means the design is becoming more uniform. Issues with this design are the weight being too high and too much material. For the next design, the material added will be thinned out and also a fixture at the end of the shaft will be added for the end of the bar 
 
 
-### Design 3 - Supporting connection on end of Fixture
-For this 
+### Design 3 - Supporting connection for end of Fixture
+For this design the added material is thinned down and there is an extra bar to support the end of the link by adding extra support closer to the end.
+
+
+<img width="2874" height="1554" alt="image" src="https://github.com/user-attachments/assets/4458b19a-80b3-4b66-aea5-5800a3d528fd" />
+
 
 #### FOS Design 3:
 
 Iteration 1:
-
+<img width="2880" height="1280" alt="image" src="https://github.com/user-attachments/assets/122f1fac-3b3e-46a7-a990-ac4a9dd5920a" />
 
 Iteration 2:
-
-
-
+<img width="2879" height="1389" alt="image" src="https://github.com/user-attachments/assets/e08a1e43-ecb0-402a-b03b-dca980dde168" />
 
 Iteration 3:
-
-
-
+<img width="2851" height="1391" alt="image" src="https://github.com/user-attachments/assets/46f3b769-ca8d-4383-9373-bb5d4400b1c0" />
 
 #### Stress Design 3:
 
 Iteration 1:
-
-
+<img width="2876" height="1264" alt="image" src="https://github.com/user-attachments/assets/99f60dc7-a03a-42a6-8db3-8562252151bb" />
 
 Iteration 2: 
-
-
-
+<img width="2873" height="1642" alt="image" src="https://github.com/user-attachments/assets/72e543c4-5d9f-4cea-96d7-5cd61e8c3712" />
 
 Iteration 3:
-
-
+<img width="2873" height="1391" alt="image" src="https://github.com/user-attachments/assets/ae16fc3f-3c0f-4d09-bd1e-795db8e4406c" />
 
 ### Deflection Design 3: 
 
 Iteration 1:
-
-
-
+<img width="2880" height="1312" alt="image" src="https://github.com/user-attachments/assets/e6e616e6-6c68-4afe-9dbb-fb7085170e54" />
 
 Iteration 2:
-
-
+<img width="2879" height="1649" alt="image" src="https://github.com/user-attachments/assets/22c90c0e-a192-4834-95d6-bc03fb8951f4" />
 
 Iteration 3:
 
 
-
-
-
+<img width="2874" height="1533" alt="image" src="https://github.com/user-attachments/assets/358e54a6-d389-49e5-a2c4-ae7e380842a9" />
 
 Table: 
 
+<img width="1909" height="203" alt="image" src="https://github.com/user-attachments/assets/f4983b9a-5718-4385-82a0-f250c440b091" />
+
 ## Communicate
+
+Since the analysis did not have convergence on all features for any iteration, there has to be a choice made based on what options are available. The first design gives an extremely light design, at the cost of relatively no safety factor. The second design gives the lowest stress and highest safety factor, but is extremely bulky and weighed down. The last design has the max stiffness and better balance between all variables, but it is also more complex design and still has weight. Based on the criteria, design 2 is the best choice because it has the lowest stress and highest safety factor. The governing failure mode for this design was stress, so it would be best to pick the design that has the least amount of stress on the system.
+
+This is a prime example of an engineering defense. Since there was no perfect outcome, there had to be a compromise on the parameter of the design. Based on the needs of what the bracket was used for, the more expensive, safer option was chosen over the riskier option. This assignment was also a great exercise on how to iterate over a design to find the best outcome, and keep tweaking the design using computer simulation. This allows an engineer to risk asses and also be firm in the choices made for a design.
+
 
