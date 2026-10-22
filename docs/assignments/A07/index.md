@@ -217,7 +217,8 @@ Since the analysis did not have convergence on all features for any iteration, t
 
 This is a prime example of an engineering defense. Since there was no perfect outcome, there had to be a compromise on the parameter of the design. Based on the needs of what the bracket was used for, the more expensive, safer option was chosen over the riskier option. This assignment was also a great exercise on how to iterate over a design to find the best outcome, and keep tweaking the design using computer simulation. This allows an engineer to risk asses and also be firm in the choices made for a design.
 
-### CAD UPDATED FILEs : 
+### CAD UPDATED FILEs : [Updated Bracket](Bracket Link.f3d) and [Linkage](Bracket Link.f3d)
+
 
 
 This project took 8 hours over the course of 2 days.
