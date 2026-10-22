@@ -168,10 +168,56 @@ Table:
 
 <img width="1909" height="203" alt="image" src="https://github.com/user-attachments/assets/f4983b9a-5718-4385-82a0-f250c440b091" />
 
+
+### Linkage FEA
+Running the same three tests on the linkage shows that 
+
+#### Safety Factor
+Iteration 1:
+<img width="2875" height="1256" alt="image" src="https://github.com/user-attachments/assets/eddc13d9-9031-4f11-acd3-cf99d0f6a351" />
+
+Iteration 2:
+
+<img width="2879" height="1308" alt="image" src="https://github.com/user-attachments/assets/4cb4aeb1-50b8-4aed-9280-eb374be9195f" />
+
+Iteration 3:
+<img width="2846" height="1288" alt="image" src="https://github.com/user-attachments/assets/889ff330-688b-49d4-9c36-4a241cb2b5a0" />
+
+#### Stresses
+
+Iteration 1:
+<img width="2874" height="1298" alt="image" src="https://github.com/user-attachments/assets/2bbc3536-3d67-4405-8762-f01264c437ec" />
+
+Iteration 2:
+<img width="2871" height="1440" alt="image" src="https://github.com/user-attachments/assets/3ec12e87-1120-41f7-9f38-f7bb17ab681b" />
+
+Iteration 3:
+<img width="2879" height="1422" alt="image" src="https://github.com/user-attachments/assets/1de8db41-ce32-448c-84d0-d2c57eb9b9e5" />
+
+#### Stiffness
+Iteration 1:
+
+<img width="2874" height="1426" alt="image" src="https://github.com/user-attachments/assets/8d2b5598-ab3f-45a4-a821-30b6af861357" />
+
+Iteration 2:
+
+<img width="2849" height="1260" alt="image" src="https://github.com/user-attachments/assets/192c02df-83e0-4d73-a65c-dfdd804ab5e5" />
+
+Iteration 3:
+<img width="2879" height="1424" alt="image" src="https://github.com/user-attachments/assets/35bd51df-a58a-4e14-89a4-80d1ddfd5340" />
+
+
+Table:
+<img width="2076" height="312" alt="image" src="https://github.com/user-attachments/assets/649b8614-097f-424f-b045-6b2880b112e9" />
+
+Due to time constraint, rerunning the test with modifications was not possible, but it can be described. Changing the amount of material around the hole or making it thicker will allow for the stress and stiffness to be increased.
 ## Communicate
 
 Since the analysis did not have convergence on all features for any iteration, there has to be a choice made based on what options are available. The first design gives an extremely light design, at the cost of relatively no safety factor. The second design gives the lowest stress and highest safety factor, but is extremely bulky and weighed down. The last design has the max stiffness and better balance between all variables, but it is also more complex design and still has weight. Based on the criteria, design 2 is the best choice because it has the lowest stress and highest safety factor. The governing failure mode for this design was stress, so it would be best to pick the design that has the least amount of stress on the system.
 
 This is a prime example of an engineering defense. Since there was no perfect outcome, there had to be a compromise on the parameter of the design. Based on the needs of what the bracket was used for, the more expensive, safer option was chosen over the riskier option. This assignment was also a great exercise on how to iterate over a design to find the best outcome, and keep tweaking the design using computer simulation. This allows an engineer to risk asses and also be firm in the choices made for a design.
 
+### CAD UPDATED FILEs : 
 
+
+This project took 8 hours over the course of 2 days.
