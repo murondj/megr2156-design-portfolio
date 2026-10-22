@@ -41,14 +41,10 @@ Iteration 1:
 <img width="2880" height="1370" alt="image" src="https://github.com/user-attachments/assets/8375fe6f-71fe-4eaa-a7d5-b347ca9c3a10" />
 
 Iteration 2:
-
-
-
+<img width="2868" height="1420" alt="image" src="https://github.com/user-attachments/assets/3ae9f68e-6913-4415-b9d1-97b8ac784814" />
 
 Iteration 3:
-
-
-
+<img width="2272" height="1270" alt="image" src="https://github.com/user-attachments/assets/87d9d3b8-87d3-40f6-8fb6-0c93c6114d40" />
 
 #### Stress Design 1:
 
@@ -56,13 +52,10 @@ Iteration 1:
 <img width="2852" height="1378" alt="image" src="https://github.com/user-attachments/assets/a9937acb-2898-45b0-82c7-0c7d2c61ce32" />
 
 Iteration 2: 
-
-
-
+<img width="2860" height="1398" alt="image" src="https://github.com/user-attachments/assets/3bdedc41-474c-475a-b287-a4e56f245ede" />
 
 Iteration 3:
-
-
+<img width="2866" height="1250" alt="image" src="https://github.com/user-attachments/assets/6a57df50-616f-4a6d-a072-f2f0a8c3d86f" />
 
 ### Deflection Design 1: 
 
@@ -70,14 +63,10 @@ Iteration 1:
 <img width="2858" height="1408" alt="image" src="https://github.com/user-attachments/assets/b4299add-3c27-494b-8212-d5cb0a20ae47" />
 
 Iteration 2:
-
-
+<img width="2854" height="1372" alt="image" src="https://github.com/user-attachments/assets/ed5af1b6-2025-433a-af29-d7ee11ca5a7d" />
 
 Iteration 3:
-
-
-
-
+<img width="2880" height="1254" alt="image" src="https://github.com/user-attachments/assets/bb796aae-3403-458b-b861-777385debe8f" />
 
 
 Table: 
