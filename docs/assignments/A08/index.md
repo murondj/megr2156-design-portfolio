@@ -68,7 +68,7 @@ All parts will be listed at the end of the document as well for further research
 ## Decide
 
 ### Assembly of Gearbox
-Now to design the assembly. The assembly will be in two parts with a snap-fit together. The dimensions of the box need to be larger than both gears combined side by side. The pinion gear has a diameter of **0.402 inches** and the reduction gear has a diameter of **1.027 inches**. A **2 inch by 2 inch box** will fit both gears with clearance. The depth of the box needs to be calculated. Given the journal bearings, the wall needs to be **0.25 inches** thick. The shafts need to stick out for input and output connection. The gear's depths are **0.308 inches** for the power gear and **0.368 inches** for the reduction gear. The gears need to rotate freely and not rub against the inner wall. This gives a depth of **1 inch**, which gives clearance for the gears to not rub the walls. Note the cover will be included in that thickness.
+Now to design the assembly. The assembly will be in two parts with a snap-fit together. The dimensions of the box need to be larger than both gears combined side by side. The pinion gear has a diameter of **0.402 inches** and the reduction gear has a diameter of **1.027 inches**. A **2.5 inch by 2 inch box** will fit both gears with clearance. The depth of the box needs to be calculated. Given the journal bearings, the wall needs to be **0.25 inches** thick. The shafts need to stick out for input and output connection. The gear's depths are **0.308 inches** for the power gear and **0.368 inches** for the reduction gear. The gears need to rotate freely and not rub against the inner wall. This gives a depth of **1 inch**, which gives clearance for the gears to not rub the walls. Note the cover will be included in that thickness.
 
 Insert Drawing of box here
 
@@ -89,7 +89,36 @@ The holes that hold affix the pegs from the front plate need to be added. Assumi
 
 <img width="2870" height="1330" alt="image" src="https://github.com/user-attachments/assets/8ab8173b-9024-4178-b318-971818085cab" />
 
+Now the holes for the journal bearings are made. Note, to get a press fit, you would need a diameter of around 0.2514 inches for the press fit of the first hole. the modeling would not work unless the part was as large as the hole. There is probably a technique in CAD software to mark a press fit, but it is not known. The drawings of the model will have the correct tolerance on the hole.
 
+<img width="2870" height="1314" alt="image" src="https://github.com/user-attachments/assets/b7b51980-2b40-46e8-a269-a89136b599be" />
+
+Next, the other hole is determined in placement. To prevent overheating and allowing gears to rotate freely, a backlash of 10 thou is added to allotted. By combining the pitch diameters of the gears and dividing by 2, this gives a shaft distance of 0.6771 inches. Adding backlash gives a distance of 0.6871 inches.
+
+<img width="2872" height="1338" alt="image" src="https://github.com/user-attachments/assets/2af36716-d7c3-44a8-b77b-77df35ee8710" />
+
+The front covering of the gearbox is made using the same steps but with pegs added instead of holes and no shelling of the model. 
+
+<img width="2876" height="1312" alt="image" src="https://github.com/user-attachments/assets/a5f1e7dd-9de3-4eef-addc-5567a6d14815" />
+
+
+### CAD Modelling of Shafts
+
+The shafts are 0.125 inches by 1 inch and 0.25 inches by 1 inch respectively. A chamfer was added to allow for easier press fit to gears.
+
+<img width="2874" height="1316" alt="image" src="https://github.com/user-attachments/assets/80d15974-0324-41c3-a3ff-7717ecbd0540" />
+
+
+<img width="2874" height="1324" alt="image" src="https://github.com/user-attachments/assets/be44620d-421b-4e4d-9734-7c1e7add9c78" />
+
+### Full Assembly
+
+Now for the full assembly. All the parts are added into one assembly. Realizing that one of the journals was smaller than the other, the hole originally cut is modified to fit the journal while also leaving a recess for the shaft to fit through with enough clearance to rotate. 
+
+<img width="2876" height="1318" alt="image" src="https://github.com/user-attachments/assets/f21cf57a-e43b-4dea-b1a8-677fe7493cba" />
+
+
+<img width="2858" height="1330" alt="image" src="https://github.com/user-attachments/assets/f7869e07-5783-4823-bf8f-bfc376df227b" />
 
 ## Communicate
 
