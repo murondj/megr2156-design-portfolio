@@ -1,4 +1,4 @@
-# A8 – Gears
+# A8 – Gearbox Assembly
 
 ## Objective
 
@@ -131,7 +131,17 @@ Now for the full assembly. All the parts are added into one assembly. Realizing 
 ### CAD Drawings of Gearbox Assembly
 Here are listed drawings completed for the 2 shafts, 2 plain bearings, and 2 housing pieces.
 
+<img width="1896" height="1230" alt="image" src="https://github.com/user-attachments/assets/368be6ec-35ad-4d14-9c9a-feffd5fa09ac" />
 
+<img width="1904" height="1226" alt="image" src="https://github.com/user-attachments/assets/0853a8cc-32d0-415a-b351-d3039bfae5f3" />
+
+<img width="1744" height="1126" alt="image" src="https://github.com/user-attachments/assets/618bd910-d74b-43f5-b07d-24cfb4fd61ba" />
+
+<img width="1824" height="1174" alt="image" src="https://github.com/user-attachments/assets/e69a4ad0-8170-4a11-914c-4073610968b5" />
+
+<img width="1710" height="1110" alt="image" src="https://github.com/user-attachments/assets/483bf62e-4fc0-425f-ada2-76e0deba21e9" />
+
+<img width="1868" height="1206" alt="image" src="https://github.com/user-attachments/assets/4e29b0b9-fe4c-4252-8164-331c22361267" />
 
 ## Communicate
 
