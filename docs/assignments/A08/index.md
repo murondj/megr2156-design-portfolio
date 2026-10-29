@@ -170,5 +170,7 @@ This assignment took 8 hours over 2 days.
 
 Bronze sleeve Bearing: 6391K126 and 6391K611 
 
+[Pinion Gear](https://www.mcmaster.com/catalog/129/1330/7880K19)
 
+[Gear](https://www.mcmaster.com/catalog/129/1330/7880K24)
 
