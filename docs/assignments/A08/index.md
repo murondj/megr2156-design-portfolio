@@ -30,7 +30,8 @@ The input shaft is a power transmission shaft that is driven directly from the m
 
 To solve the stress limit and diameter required, multiple calculations need to be performed. First, Finding the input torque and speed is required to find the stress and diameter. To solve this, assume 100 percent efficiency in transmission from input to output. The following ratio of output torque over the gear ratio can be used with this assumption, giving a calculated value of **0.172 in-lbf**. The speed of the input shaft is calculated by multiplying the gear ratio by the output speed of the shaft. This gives an input speed of **7975 RPM**. 
 
-Insert first pic here
+<img width="848" height="1130" alt="image" src="https://github.com/user-attachments/assets/20d38075-5e53-4fb1-b99a-4829f0a475e7" />
+
 
 From the input torque and the input speed, the stress limit and the minimum diameter can be calculated. The major results calculated was a stress limit of **448.5 psi** and a minimum shaft diameter of **0.06 inches**. This is smaller than the diameter of the shaft, so the power transmission shaft diameter of **0.125** in is applicable and does not need to be changed.
 
@@ -39,7 +40,8 @@ From the input torque and the input speed, the stress limit and the minimum diam
 
 The output shaft is a short shaft that is connected to the input shaft via the reduction gear and pinion gear. It drives the desired lower speed and torque to the machine assembly. 
 
-Insert 2nd pic here
+<img width="836" height="1118" alt="image" src="https://github.com/user-attachments/assets/ae7dc54f-a39b-4e42-801c-f36d3859fd6a" />
+
 
 Since the output torque and speed is already known, the minimum diameter and stress limit can be calculated directly. Note that the formula for diameter is different for a short shaft compared to a power transmission shaft. The calculated value of the stress limit is **407.4 psi** and the calculated minimum diameter is **0.09 inches**. The shaft diameter of **0.25 inches** is well above this, so this is a valid shaft for the output shaft.
 
@@ -54,7 +56,7 @@ For this part of the design, the material and bearing thickness need to be deter
 
 The diameter of the shaft is 0.125 inches. To have a press fit with the gearbox housing, the tolerance for the hole to house the journal bearing is an FN 6 fit. The fit to the journal bearing to the shaft is an RC5 fit. Below are the calculations to solve for PV and material selection:
 
-Insert 3rd Pic here
+<img width="764" height="1068" alt="image" src="https://github.com/user-attachments/assets/a6bafa23-eae2-4f00-8e32-3f705c23429b" />
 
 Using the pitch diameter of the pinion, the calculated PV due to radial force over the bearing area is **5913.81 psi ft/min**. The calculated thickness due to allowable hoop stress to diameter ratio calculated a thickness of **0.125 in** Originally, graphite was chosen as the bearing material, but the website did not offer a bearing of this thickness and length in that option, so bronze was chosen instead for this [bearing](https://www.mcmaster.com/products/journal-bearings/sleeve-bearings-3~/shaft-diameter~1-8/length~1-8-1/od~0-252/) (9368T95). Note the size is also 0.252 inches instead 0.250 inches.
 
@@ -62,7 +64,8 @@ Using the pitch diameter of the pinion, the calculated PV due to radial force ov
 
 The same process was done for this bearing as well. Instead of the pinion pitch, the gear pitch was used instead. This gave a calculated PV of **1114.98 psi ft/min**. A calculated thickness of **0.38 inches** was calculated as the thickness. For consistency, this bearing was also switched to bronze. This was the [bearing](https://www.mcmaster.com/products/journal-bearings/shaft-diameter~1-4-1/length~1-4-2/) (S391K126) chosen.
 
-Insert 4th pic here
+<img width="810" height="1126" alt="image" src="https://github.com/user-attachments/assets/e5dc23c6-5650-49a0-a0f4-c5c4ec95701e" />
+
 
 All parts will be listed at the end of the document as well for further research.
 ## Decide
@@ -70,12 +73,13 @@ All parts will be listed at the end of the document as well for further research
 ### Assembly of Gearbox
 Now to design the assembly. The assembly will be in two parts with a snap-fit together. The dimensions of the box need to be larger than both gears combined side by side. The pinion gear has a diameter of **0.402 inches** and the reduction gear has a diameter of **1.027 inches**. A **2.5 inch by 2 inch box** will fit both gears with clearance. The depth of the box needs to be calculated. Given the journal bearings, the wall needs to be **0.25 inches** thick. The shafts need to stick out for input and output connection. The gear's depths are **0.308 inches** for the power gear and **0.368 inches** for the reduction gear. The gears need to rotate freely and not rub against the inner wall. This gives a depth of **1 inch**, which gives clearance for the gears to not rub the walls. Note the cover will be included in that thickness.
 
-Insert Drawing of box here
+<img width="832" height="1078" alt="image" src="https://github.com/user-attachments/assets/685a3612-3c8c-45e5-923a-725d98809ebf" />
 
 ### CAD Modeling of Gearbox
 These are the parametric equations for the box itself
 
-Insert pic here
+<img width="2374" height="1120" alt="image" src="https://github.com/user-attachments/assets/8562cf80-2cc1-41e2-a171-ef2bfce4bc32" />
+
 
 The first part before full assembly is the gearbox. Using parametric equations, the box is constructed below.
 
@@ -119,6 +123,13 @@ Now for the full assembly. All the parts are added into one assembly. Realizing 
 
 
 <img width="2858" height="1330" alt="image" src="https://github.com/user-attachments/assets/f7869e07-5783-4823-bf8f-bfc376df227b" />
+
+<img width="2866" height="1326" alt="image" src="https://github.com/user-attachments/assets/0bff5708-2c85-4062-94db-d3b31a386033" />
+
+### CAD Drawings of Gearbox Assembly
+Here are listed drawings completed for the 2 shafts, 2 plain bearings, and 2 housing pieces.
+
+
 
 ## Communicate
 
