@@ -126,10 +126,38 @@ Now for the full assembly. All the parts are added into one assembly. Realizing 
 
 <img width="2866" height="1326" alt="image" src="https://github.com/user-attachments/assets/0bff5708-2c85-4062-94db-d3b31a386033" />
 
+
+
 ### CAD Drawings of Gearbox Assembly
 Here are listed drawings completed for the 2 shafts, 2 plain bearings, and 2 housing pieces.
 
 
 
 ## Communicate
+
+This project used a lot of CAD. I learned a lot about assemblies and how to put everything together into one cohesive design. It was really satisfying being able to put everything together and watch a working product, even if it is just a design and not a full product. Being able to see how everything interacts allows for changes to be made to the design, which I ended up doing. There was also a lesson in the design phase is never really over. The initial design is never the final product because you will always find something to tweak or design something more practically.
+
+This assignment took 8 hours over 2 days. 
+
+## Appendix
+
+### Files for CAD
+
+#### Assembly
+[Full Assembly](Gear_Box_Assembly.f3z)
+
+#### Parts Made from Scratch
+
+[Housing](Gearbox_Housing.f3d)
+
+[Housing Lid](Gearbox_Housing_Lid.f3d)
+
+[Input Shaft](Pin_for_pinion.f3d)
+
+[Output Shaft](Shaft_GearReduction.f3d)
+
+#### MCMaster-Carr Parts
+
+[Pinion](
+
 
