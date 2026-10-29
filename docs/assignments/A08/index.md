@@ -168,6 +168,7 @@ This assignment took 8 hours over 2 days.
 
 #### MCMaster-Carr Parts
 
-[Pinion](
+Bronze sleeve Bearing: 6391K126 and 6391K611 
+
 
 
