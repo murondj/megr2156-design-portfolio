@@ -48,10 +48,12 @@ A key part of this assignment is to ensure that the nut and flange we chose for 
 ### Cross Head
 
 ### Cost of Material: J.V. Muron
+
+Below is the total cost of all the material and the assembly parts as well.
 | Item Number | Quantity | Name | Cost | Purchase Link |
 |-------------|----------|------|------|---------------|
 | 60750       | 2        | ACME Lead Screw 3/16 RH Steel | 13.26 per foot | https://www.roton.com/family/acme-right-screws-and-nuts-7060750/ |
-|-------------|----------|------|------|---------------|
+||----------|------|------|---------------|
 |
 
 ### CAD Modeling and FEA
