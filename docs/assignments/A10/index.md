@@ -72,15 +72,41 @@ Assuming the Cross Head acts as a Simply Supported Beam with the lead screws fla
 
 Assuming the width of the Cross Head is one third of the length allows the re-arrangement of the beam stress and deflection formulae to solve for thickness.
 
+#### Decided Dimensions
 
-There is some 
+In a flagrant attempt to simplify calculations and unify units, dimensions for the Cross Head were assigned in meters. 0.9m length x 0.3 width (1/3 *length) x some thickness to be calculated by strength and deflection analysis.
+
+#### Material Selection
+
+6061 T6 Aluminum was selected for its abundance and strength, according to Matweb, 6061-T6 has a tensile yield strength of 276 MPa and a modulus of elasticity of 68.9 GPa.
+
+#### Algebraic Calculation
+
+<img width="791" height="609" alt="image" src="https://github.com/user-attachments/assets/77069e96-db0c-4b38-be97-761ec2ae297b" />
+
+#### Numeric Calculation
+
+<img width="797" height="351" alt="image" src="https://github.com/user-attachments/assets/ea4db623-2b99-4bf0-bc45-7bfd67d9e51e" />
+
+#### Stress / Deflection Analysis Conclusion
+
+The thickness to provide necessary strength was found to be 8.1mm but the thickness to provide the required stiffness (maximum deflection of 0.1mm) was found to be 42.8mm. 
+
+Therefore, a thickness of 42.8mm or 1.684inches will suffice for this particular application.
+
+#### Material Source
+A billet of 6061 T6 measuring 1.75" thick x 4" Wide x 12" Long is available for purchase from McMaster-Carr (5679N148).
+This is very close to the designed 1.68"(42.8mm) thick x 3.937"(300mm) wide x 11.8"(900mm) long.
 
 
 
 
 
 
-Looking through the 
+
+
+
+
 
 ### Cost of Material: J.V. Muron
 
