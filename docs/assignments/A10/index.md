@@ -47,9 +47,14 @@ A key part of this assignment is to ensure that the nut and flange we chose for 
 
 ### Cross Head
 
-### Cost of Material
+### Cost of Material: J.V. Muron
+| Item Number | Quantity | Name | Cost | Purchase Link |
+|-------------|----------|------|------|---------------|
+| 60750       | 2        | ACME Lead Screw 3/16 RH Steel | 13.26 per foot | https://www.roton.com/family/acme-right-screws-and-nuts-7060750/ |
+|-------------|----------|-------------------------------|----------------|------------------------------------------------------------------|
+|
 
-### CAD Modelling and FEA
+### CAD Modeling and FEA
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
 ## Communicate
