@@ -45,7 +45,42 @@ A key part of this assignment is to ensure that the nut and flange we chose for 
 <img src="gb-14.png" alt="initial design" width="400">
 <img src="gb-15.png" alt="initial design" width="400">
 
-### Cross Head
+### Cross Head Austin Hill
+
+In order to determine the appropriate dimensions for the crosshead research was conducted to see what materials and dimensions had been used successfully in the past.
+The "Free Loader" testing apparatus proved to be a great starting point for the design concept. The Free Loader has a nominal capacity of 5kN, which is in excess of the assigned capacity, and has a desktop form factor.
+
+#### Free Loader Links
+
+https://www.creativemachineslab.com/freeloader.html
+
+https://www.creativemachineslab.com/uploads/6/9/3/4/69340277/detc2011_amend.pdf
+
+https://www.creativemachineslab.com/uploads/6/9/3/4/69340277/freeloader_manual_v-1-0-0.pdf
+
+Taking the Free Loader as a jumping off point the Cross Head is initial concieved as a roughly 9" (l) x 3" (w) x 1" (thk) beam made of 6061 Aluminum.
+
+Starting from there, proper engineering analysis began. 
+
+#### Cross Head Free Body Diagram
+
+<img width="744" height="351" alt="image" src="https://github.com/user-attachments/assets/4df6fc19-4b3e-4b0a-9acd-3aa0fecb38b7" />
+
+#### Assumptions Made
+
+Assuming the Cross Head acts as a Simply Supported Beam with the lead screws flange and nuts acting as supports and the test connection the load, the calculations for strength and deflection criteria can be confidently calculated using beam deflection/stress formulae from Machinery's Handbook.
+
+Assuming the width of the Cross Head is one third of the length allows the re-arrangement of the beam stress and deflection formulae to solve for thickness.
+
+
+There is some 
+
+
+
+
+
+
+Looking through the 
 
 ### Cost of Material: J.V. Muron
 
