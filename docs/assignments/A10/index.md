@@ -125,9 +125,8 @@ https://www.loadstarsensors.com/ras1.html
 Below is the total cost of all the material and the assembly parts as well.
 | Item Number | Quantity | Name | Cost | Purchase Link |
 |-------------|----------|------|------|---------------|
-| 60750       | 2        | ACME Lead Screw 3/16 RH Steel | 13.26 per foot | https://www.roton.com/family/acme-right-screws-and-nuts-7060750/ |
-||----------|------|------|---------------|
-|
+| 60750       | 2        | ACME Lead Screw 3/16 RH Steel | $39.78 | https://www.roton.com/family/acme-right-screws-and-nuts-7060750/ |
+| 804T46      | 1        |T-Slot Framing System: Rectangle, 40 Series, Smooth, Double, 3 m Nom Lg, 80 mm x 40 mm, 6 Slots| $211.32| https://www.grainger.com/product/80-20-T-Slot-Framing-System-Rectangle-804T46 |
 
 ### CAD Modeling and FEA
 The assembly is created from the parts listed above. To create the frame, the 3 meter bar is cut to the frame specifications. Inspiration was taken from the MT01 Tensile Tester. For this specific assembly, the frame dimensions will be **20 inches tall, 18.15 inches wide, and 12 inches deep**.  The frame requires 2 base pieces, 2 runners, and a top and bottom piece in between the two frame parts to hold it together.
