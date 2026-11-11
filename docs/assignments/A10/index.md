@@ -139,5 +139,10 @@ Once the pieces of the frame are cut, the body assembly is created for the frame
 
 ### Cross Head 2D CAD Drawing
 
+#### Files for download
+
+[Cross Head Drawing SW](https://github.com/murondjmegr2156-design-portfolioocs/assignments/A10/CrossHead.SLDDRW)
+[Cross Head Drawing PDF](https://github.com/murondjmegr2156-design-portfolioocs/assignments/A10/CrossHead.pdf)
+
 ## Communicate
 
