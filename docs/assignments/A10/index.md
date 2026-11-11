@@ -103,6 +103,10 @@ Therefore, a thickness of 42.8mm or 1.684inches will suffice for this particular
 A billet of 6061 T6 measuring 1.75" thick x 4" Wide x 12" Long is available for purchase from McMaster-Carr (5679N148).
 This is very close to the designed 1.68"(42.8mm) thick x 3.937"(300mm) wide x 11.8"(900mm) long.
 
+https://www.mcmaster.com/5679N148/
+
+#### Sketch of Cross Head
+
 
 
 
