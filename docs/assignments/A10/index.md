@@ -110,7 +110,9 @@ https://www.mcmaster.com/5679N148/
 <img width="1333" height="953" alt="image" src="https://github.com/user-attachments/assets/e93f8381-9eeb-4a66-9613-bde435e6365a" />
 
 
+#### Sensors source
 
+https://www.loadstarsensors.com/ras1.html
 
 
 
