@@ -127,7 +127,9 @@ Below is the total cost of all the material and the assembly parts as well.
 |
 
 ### CAD Modeling and FEA
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
+The assembly is created from the parts listed above. To create the frame, the 3 meter bar is cut to the frame specifications. Inspiration was taken from the MT01 Tensile Tester. For this specific assembly, the frame dimensions will be **20 inches tall, 18.15 inches wide, and 12 inches deep**.  The frame requires 2 base pieces, 2 runners, and a top and bottom piece in between the two frame parts to hold it together.
+
+<img width="2880" height="1320" alt="image" src="https://github.com/user-attachments/assets/e804c757-0d06-4c8c-8cca-4b4b533241a3" />
 
 ## Communicate
 
