@@ -134,5 +134,9 @@ The assembly is created from the parts listed above. To create the frame, the 3 
 
 <img width="2880" height="1320" alt="image" src="https://github.com/user-attachments/assets/e804c757-0d06-4c8c-8cca-4b4b533241a3" />
 
+Once the pieces of the frame are cut, the body assembly is created for the frame.
+
+<img width="2864" height="1338" alt="image" src="https://github.com/user-attachments/assets/e3c134ca-9355-418a-a68d-6fdaed8d196a" />
+
 ## Communicate
 
