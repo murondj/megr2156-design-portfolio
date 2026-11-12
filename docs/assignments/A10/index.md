@@ -141,9 +141,9 @@ Once the pieces of the frame are cut, the body assembly is created for the frame
 
 #### Files for download
 
-[Cross Head Drawing SW](https://github.com/murondjmegr2156-design-portfolioocs/assignments/A10/CrossHead.SLDDRW)
+[Cross Head Drawing SW](https://github.com/murondj/megr2156-design-portfolio/edit/main/docs/assignments/A10/CrossHead.SLDDRW)
 
-[Cross Head Drawing PDF](https://github.com/murondjmegr2156-design-portfolioocs/assignments/A10/CrossHead.pdf)
+[Cross Head Drawing PDF](https://github.com/murondj/megr2156-design-portfolio/edit/main/docs/assignments/A10/CrossHead.pdf)
 
 #### Drawing Notes
 
