@@ -127,6 +127,8 @@ https://www.mcmaster.com/5679N148/
 ### Cost of Material: J.V. Muron
 
 Below is the total cost of all the material and the assembly parts as well.
+
+
 |          | Item Number | Quantity | Name                | Cost | Purchase Link      |
 |----------|-------------|----------|---------------------|------|--------------------|
 | | 60750       | 2        | ACME Lead Screw 3/16 RH Steel | $39.78 | https://www.roton.com/family/acme-right-screws-and-nuts-7060750/ |
