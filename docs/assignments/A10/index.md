@@ -123,12 +123,26 @@ https://www.loadstarsensors.com/ras1.html
 ### Cost of Material: J.V. Muron
 
 Below is the total cost of all the material and the assembly parts as well.
-| Item Number | Quantity | Name | Cost | Purchase Link |
-|-------------|----------|------|------|---------------|
-| 60750       | 2        | ACME Lead Screw 3/16 RH Steel | $39.78 | https://www.roton.com/family/acme-right-screws-and-nuts-7060750/ |
-| 804T46      | 1        |T-Slot Framing System: Rectangle, 40 Series, Smooth, Double, 3 m Nom Lg, 80 mm x 40 mm, 6 Slots| $211.32| https://www.grainger.com/product/80-20-T-Slot-Framing-System-Rectangle-804T46 |
+|          | Item Number | Quantity | Name                | Cost | Purchase Link      |
+|----------|-------------|----------|---------------------|------|--------------------|
+| | 60750       | 2        | ACME Lead Screw 3/16 RH Steel | $39.78 | https://www.roton.com/family/acme-right-screws-and-nuts-7060750/ |
+| | 804T46      | 1        |T-Slot Framing System: Rectangle, 40 Series, Smooth, Double, 3 m Nom Lg, 80 mm x 40 mm, 6 Slots| $211.32| https://www.grainger.com/product/80-20-T-Slot-Framing-System-Rectangle-804T46 |
+| | 95072A129   | 2        | Precision Acme Externally Threaded Nut Right Hand, 673 Bronze, 3/8"-16 Thread Size | $59.04 | https://www.mcmaster.com/95072A129/ |
+| | 95082A641   | 2        | Precision Acme Flange 1215 Carbon Steel, 9/16"-18 Thread Size | $74.12 | https://www.mcmaster.com/95082A641/ |
+| | LC103B-200  | 1        | Omega Load Cell | $336.11 | https://www.dwyeromega.com/en-us/high-accuracy-stainless-steel-s-beam-load-cells/LC103B/p/LC103B-200?utm_source=google&utm_medium=organic&utm_campaign=organicshopping&utm_term=&utm_campaign=Shopping-High+Inventory+Omega_Products&utm_source=adwords&utm_medium=ppc&hsa_acc=3861323739&hsa_cam=23485087147&hsa_grp=191162811839&hsa_ad=793551323277&hsa_src=g&hsa_tgt=pla-2463874841720&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=23485087147&gbraid=0AAAAAD_f1Fsn-M-5KkMXEx8HDlOAKHyBg&gclid=Cj0KCQiAwdDXBhDuARIsAFdLuklScrjDTOTw2McwSR4l6MzFkN4u7_eLSMa6L1Z_1-JVfeT90cgC0J4aAo7hEALw_wcB |
+|**TOTAL COST**| | | | $720.37 | | |
 
-### CAD Modeling and FEA
+
+Note that tabulated cost does not include the cost of crosshead, machining of crosshead or cutting and welding the frame together.
+
+### CAD Modeling and FEA J.V. Muron
+
+#### Design of Crosshead
+Austin designed the crosshead from his drawings. From here, it was parametrically modeled to allow for the size of the crosshead to be changed to fit any system with the same lead screws. This is the parametric equations used.
+
+
+
+#### Assembly of Frame and Tester
 The assembly is created from the parts listed above. To create the frame, the 3 meter bar is cut to the frame specifications. Inspiration was taken from the MT01 Tensile Tester. For this specific assembly, the frame dimensions will be **20 inches tall, 18.15 inches wide, and 12 inches deep**.  The frame requires 2 base pieces, 2 runners, and a top and bottom piece in between the two frame parts to hold it together.
 
 <img width="2880" height="1320" alt="image" src="https://github.com/user-attachments/assets/e804c757-0d06-4c8c-8cca-4b4b533241a3" />
@@ -136,6 +150,28 @@ The assembly is created from the parts listed above. To create the frame, the 3 
 Once the pieces of the frame are cut, the body assembly is created for the frame.
 
 <img width="2880" height="1308" alt="image" src="https://github.com/user-attachments/assets/f9457825-ab1f-4d4e-bfea-020c97706479" />
+
+After modeling the Crosshead, it is added to the design with the lead screws and the nuts and flanges. These are assembled into one piece and will be added to the frame.
+
+<img width="2878" height="1334" alt="image" src="https://github.com/user-attachments/assets/7685a123-9f16-4ee8-b828-6a3dc375d4c6" />
+
+The crosshead assembly is then added into the frame of the tester
+
+<img width="2870" height="1318" alt="image" src="https://github.com/user-attachments/assets/c51b2a39-bc05-4355-8092-fbd2bdcdd2d9" />
+
+The assembly is now ready for the loader to be added and ready to test material.
+
+<img width="2870" height="1334" alt="image" src="https://github.com/user-attachments/assets/1a3e79e1-95b1-438f-9d43-1f10a7b46c7b" />
+
+Note this is not the same exact tensile tester, only a model one of the component.
+
+#### FEA of Crosshead
+
+The crosshead works by moving up and down. This movement is driven by a motor at the top of the assembly. This motor drives the lead screws to turn. The nut turns on the lead screw, driving the crosshead upwards away from the material. To test the forces on the crosshead, and FEA of the crosshead is done to determine the forces it can withstand.
+
+When running the FEA on the crosshead, it is important to know which way the forces are going. The tension caused by pulling on the material is forcing the center of the crosshead **down**. The lead screws, nut, and flanges are being driven **up** by the motor. This creates a fixed constraint on the contact point of the flanges. To create this on the crosshead model, a split face needs to be added where the crosshead will experience the fixed constraint.
+
+<img width="2878" height="1334" alt="image" src="https://github.com/user-attachments/assets/cedd20a7-5a2f-46ba-9388-3592d2228fbf" />
 
 ### Cross Head 2D CAD Drawing
 
