@@ -2,20 +2,32 @@
 
 ## Objectives
 
+1.) Determine a lead screw diameter from axial stress, calculate range of rotational speed, and select an appropriate lead screw based on the torque given
+
+2.) Determine a nut and flange that best fits the lead screw
+
+3.) design a crosshead based on beam analysis of deflection and stress. Create a Multiview sketch.
+
+4.) Tabulate costs and create assembly in CAD
+
+5.) run FEA on crosshead and determine a better design.
 
 ## Analyze
 This week's assignment is a group assignment. The goal is to design and build a mechanically driven tester that is capable of applying **2 KN** of axial tensile load, and be able to have a controllable crosshead speed of **1 to 50 mm/min**. 
 
+The group decided it was best to split the work into sections; one member would work on designing the lead screw and the nuts and flanges (Greyson), one member would design the crosshead based on the parameters (Austin), and the last member would tabulate the costs, create CAD assembly and FEA, and edit and assemble the website (J.V.). If a member struggled with a part, other members would help out if needed.
+
 ## Decide
 
 ### Leadscrew Diameter: Greyson Boatright
+
 #### Lead screw diameter using axial stress
-I found the minimum lead screw diameter with the assumption that we were going to analyze the screw under axial stress only. In this analysis I used the given parameters of a safety factor of four and a total force of 2kn in the resulting equation. Since the two lead screws were identical and the force was distributed evenly between the two, this meant I could divide the total force by two and analyze only one lead screw. The material from the catalog online only gave options for steel and stainless steel which meant I had to make an assumption for the yield strength I was going to use to effectively calculate the allowable stress. Using steel set the yield strength to 250MPa, I solved the equation for the minimum diameter to be 4.5297mm. Lastly I went through the catalog with the number that had to achieve the minor(root) diameter for the lead screw, I chose a 3/8-16 right handed steel screw temporarily as there was still more analysis to be done.
+I found the minimum lead screw diameter with the assumption that we were going to analyze the screw under axial stress only. In this analysis, I used the given parameters of a **safety factor of four** and a total force of **2kN** in the resulting equation. Since the two lead screws were identical and the force was distributed evenly between the two, this meant I could divide the total force by two and analyze only one lead screw. The material from the catalog online only gave options for steel and stainless steel which meant I had to make an assumption for the yield strength I was going to use to effectively calculate the allowable stress. Using steel set the yield strength to 250MPa, I solved the equation for the minimum diameter to be **4.5297mm**. Lastly I went through the catalog with the number that had to achieve the minor(root) diameter for the lead screw, I chose a 3/8-16 right handed steel screw temporarily as there was still more analysis to be done.
 
 <img src="gb-4.png" alt="initial design" width="400">
 
 #### Range of rotational speed
-The next step was to calculate the range of rotational speed we could achieve with a given range of linear speed. The linear speed that was given was a range of 1 to 50 mm/min. We needed to convert this linear speed to rotational speed, to do this we could divide the speed over the lead. Luckily I was able to easily figure out the lead size as it was given to me through the manufacture of the temporary lead screw. After drawing the free body diagram, identifying knowns and unknowns, I was able to write equations for both the minimum and maximum RPMs, those came out to be 0.625-31.246 and I found that to be a reasonable rotational speed range for what we are trying to achieve.
+The next step was to calculate the range of rotational speed we could achieve with a given range of linear speed. The linear speed that was given was a range of 1 to 50 mm/min. We needed to convert this linear speed to rotational speed, to do this we could divide the speed over the lead. Luckily I was able to easily figure out the lead size as it was given to me through the manufacture of the temporary lead screw. After drawing the free body diagram, identifying knowns and unknowns, I was able to write equations for both the minimum and maximum RPMs, those came out to be **0.625-31.246** and I found that to be a reasonable rotational speed range for what we are trying to achieve.
 
 <img src="gb-5.png" alt="initial design" width="400">
 
@@ -35,7 +47,7 @@ Lead Screw Link: https://www.roton.com/product/acme-steel-screw-right-60750/
 ### Selecting a Nut & Flange: Greyson Boatright
 
 #### Selecting the nut/flange based upon thread bending stress analysis
-A key part of this assignment is to ensure that the nut and flange we chose for the given lead screw is able to withstand the conditions in which it is put under. For this portion I analyzed the internal threads of the nut due to bending stress. For the knowns of this problem we continued using a safety factor of 4, we only analyze one nut since it is symmetric and that gives us a force of 1kn compared to 2kn. I also knew the minimum diameter of the nut which I based on the major diameter of the lead screw. For the rest of the unknowns I had to gather this information from the nut that mates with the lead screw from the McMaster-Carr website. Doing so I found the length to be 15.875mm, The material was bronze 673 and so I approximated the yield strength to be 140MPa. For this problem there were two unknowns with one being the pitch and the other being the number of threads in contact. I drew a free body diagram of the nut and lead screw, I was able to find a formula from the lecture that went over calculating the stress due to bending. The pitch was found by dividing 1 by the number of threads per inch which gave use 1.5875mm/thread. Once I found the pitch I was able to find the number of threads in contact by dividing the length of the nut by the pitch which gave us 10. According to the saftey factor of 4 and the yield strength the resulting allowable stress was 35MPa. The formula for stress due to bending was equal to (6F)/(n*pi*d*p), plugging in all over our known values this gave us a result of 13.003MPa which was significantly lower than the allowable stress and met the requirements. I went with the nut I initially selected, wrote down the part number and included additional information below. Also, there were three different flanges that were avalible that all had the same dimensions, just different types of steel. I decided to go with the 1015 carbon steel as it is cost effective and the tester will not be subjected to excessive moisture, thus causing rust. For more information about the flange and nut see below.
+A key part of this assignment is to ensure that the nut and flange we chose for the given lead screw is able to withstand the conditions in which it is put under. For this portion I analyzed the internal threads of the nut due to bending stress. For the knowns of this problem we continued using a safety factor of 4, we only analyze one nut since it is symmetric and that gives us a force of 1kn compared to 2kn. I also knew the minimum diameter of the nut which I based on the major diameter of the lead screw. For the rest of the unknowns I had to gather this information from the nut that mates with the lead screw from the McMaster-Carr website. Doing so I found the length to be **15.875mm**, The material was bronze 673 and so I approximated the yield strength to be 140MPa. For this problem there were two unknowns with one being the pitch and the other being the number of threads in contact. I drew a free body diagram of the nut and lead screw, I was able to find a formula from the lecture that went over calculating the stress due to bending. The pitch was found by dividing 1 by the number of threads per inch which gave **1.5875mm/thread**. Once I found the pitch I was able to find the number of threads in contact by dividing the length of the nut by the pitch which gave us 10. According to the saftey factor of 4 and the yield strength the resulting allowable stress was 35MPa. The formula for stress due to bending was equal to (6F)/(n*pi*d*p), plugging in all over our known values this gave us a result of 13.003MPa which was significantly lower than the allowable stress and met the requirements. I went with the nut I initially selected, wrote down the part number and included additional information below. Also, there were three different flanges that were avalible that all had the same dimensions, just different types of steel. I decided to go with the 1015 carbon steel as it is cost effective and the tester will not be subjected to excessive moisture, thus causing rust. For more information about the flange and nut see below.
 
 Lead Screw Nut Link: https://www.mcmaster.com/95072A129/
 Lead Screw Flange Link: https://www.mcmaster.com/95082A641/
@@ -50,7 +62,7 @@ Lead Screw Flange Link: https://www.mcmaster.com/95082A641/
 <img src="gb-14.png" alt="initial design" width="400">
 <img src="gb-15.png" alt="initial design" width="400">
 
-### Cross Head Austin Hill
+### Cross Head: Austin Hill
 
 In order to determine the appropriate dimensions for the crosshead research was conducted to see what materials and dimensions had been used successfully in the past.
 The "Free Loader" testing apparatus proved to be a great starting point for the design concept. The Free Loader has a nominal capacity of 5kN, which is in excess of the assigned capacity, and has a desktop form factor.
@@ -110,14 +122,6 @@ https://www.mcmaster.com/5679N148/
 <img width="1333" height="953" alt="image" src="https://github.com/user-attachments/assets/e93f8381-9eeb-4a66-9613-bde435e6365a" />
 
 
-#### Sensors source
-
-https://www.loadstarsensors.com/ras1.html
-
-
-
-
-
 
 
 ### Cost of Material: J.V. Muron
@@ -153,7 +157,7 @@ Once the pieces of the frame are cut, the body assembly is created for the frame
 
 <img width="2880" height="1308" alt="image" src="https://github.com/user-attachments/assets/f9457825-ab1f-4d4e-bfea-020c97706479" />
 
-After modeling the Crosshead, it is added to the design with the lead screws and the nuts and flanges. These are assembled into one piece and will be added to the frame.
+After modeling the Crosshead, it is added to the design with the lead screws and the nuts and flanges. These are assembled into one piece and will be added to the frame. The lead screws are **18 inches** long.
 
 <img width="2878" height="1334" alt="image" src="https://github.com/user-attachments/assets/7685a123-9f16-4ee8-b828-6a3dc375d4c6" />
 
@@ -270,20 +274,22 @@ Overall, either design would work well, but to save costs the first one can be u
 
 <img width="2270" height="320" alt="image" src="https://github.com/user-attachments/assets/a9affbf4-aab5-4650-a46b-84dc740281e8" />
 
-### Cross Head 2D CAD Drawing
 
-#### Files for download
 
-[Tensile Assembly]
+### CAD Files, Drawings, and Assembly Downloads
 
-[Redesigned Crosshead]
+[Tensile Assembly](Tensile_Tester_Assembly.f3z)
+
+[Redesigned Crosshead](Redesigned_Cossplate.f3d)
 
 
 [Cross Head Drawing SW](https://github.com/murondj/megr2156-design-portfolio/edit/main/docs/assignments/A10/CrossHead.SLDDRW)
 
 [Cross Head Drawing PDF](https://github.com/murondj/megr2156-design-portfolio/edit/main/docs/assignments/A10/CrossHead.pdf)
 
-#### Drawing Notes
+### Cross Head 2D CAD Drawing
+
+#### Drawing Notes: Austin Hill
 
 The Cross Head is designed to travel on the lead screws via the nuts secured to the mounting flanges. The design is such that socket head cap screws can be used in the plate and nuts secured from the flange side. This eliminates the possibility of the harder steel bolts galling the threads and potentially tearing out from the aluminum plate.
 
