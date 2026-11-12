@@ -138,8 +138,10 @@ Note that tabulated cost does not include the cost of crosshead, machining of cr
 ### CAD Modeling and FEA: J.V. Muron
 
 #### Design of Crosshead
-Austin designed the crosshead from his drawings. From here, it was parametrically modeled to allow for the size of the crosshead to be changed to fit any system with the same lead screws. This is the parametric equations used.
+Austin designed the crosshead from his drawings. From here, it was parametrically modeled to allow for the size of the crosshead to be changed to fit any system with the same lead screws. This is the parametric equations used. Note that the length was changed to fit the machine, but the one originally constructed would have worked as well.
 
+
+<img width="2354" height="642" alt="image" src="https://github.com/user-attachments/assets/baa2789e-40ff-4a70-a60b-ce1e549482cb" />
 
 
 #### Assembly of Frame and Tester
@@ -213,37 +215,69 @@ Von Mises: 12.898 MPa
 Deflection: 0.0002835 inches
 <img width="2874" height="1266" alt="image" src="https://github.com/user-attachments/assets/ee5f7cda-9df2-433e-b094-0ead15178783" />
 
-##### Design 2: 
+This design is pretty strong already. While it does not completely converge on the stress and safety factor, it does converge on deflection. This deflection is also well under the maximum deflection of 0.1 mm. Looking at the displacement, there is some torsional strain on the bar. There is slight displacement in the X and Z directions, but most of the deflection is in the Y, which is good.
+
+<img width="2254" height="276" alt="image" src="https://github.com/user-attachments/assets/266ea997-44ad-4263-be14-bc04dadcad66" />
+
+
+To compensate for the torsion, diagonal ribs will be added to the crosshead to help counteract the torsion. 
+
+##### Design 2: Diagonal Ribs
+The changes were made below. An extra wall thickness of 0.20 inches was added with diagonal ribs of the same thickness.
+
+<img width="2878" height="1332" alt="image" src="https://github.com/user-attachments/assets/5386b664-8cf4-4654-88e6-ce492e82c7c1" />
 
 ###### Iteration 1
 
-Safety Factor: 
+Safety Factor: 31.055
+<img width="2880" height="1440" alt="image" src="https://github.com/user-attachments/assets/cb6eafaa-2662-4f56-9440-22e71e642de0" />
 
-Von Mises: 
+Von Mises: 8.887 MPa
+
+<img width="2864" height="1380" alt="image" src="https://github.com/user-attachments/assets/7b1017c0-e3d9-48b3-85f5-fee57bbf7d1a" />
 
 
-Deflection:
+Deflection: 0.000306 inches
+<img width="2872" height="1376" alt="image" src="https://github.com/user-attachments/assets/3a86135d-e431-4b41-bfdd-35f347af9d12" />
 
 ###### Iteration 2
 
-Safety Factor:
+Safety Factor: 30.736
+<img width="2864" height="1564" alt="image" src="https://github.com/user-attachments/assets/fcb5e5ac-99df-4430-a7ae-aa849b6027da" />
 
-Von Mises:
+Von Mises: 8.98 MPa
+<img width="2880" height="1364" alt="image" src="https://github.com/user-attachments/assets/21c8a25f-ec81-446a-9107-9075140b17f7" />
 
-Deflection:
+Deflection: 0.000312 inches
+<img width="2856" height="1380" alt="image" src="https://github.com/user-attachments/assets/21944af9-ea6a-426f-9d5c-0a1b6f649f53" />
 
-###### Iteration 3
+###### Iteration 3 
 
-Safety Factor:
+Safety Factor: 21.749
+<img width="2880" height="1422" alt="image" src="https://github.com/user-attachments/assets/86f8cf37-60b7-4729-8eae-24adf63d1d2a" />
 
-Von Mises:
+Von Mises: 12.69 MPa
+<img width="2866" height="1440" alt="image" src="https://github.com/user-attachments/assets/41ccd1e1-42af-4fa6-b48f-2cadfd7fe9c5" />
 
-Deflection:
+Deflection: 0.0003201 inches
 
+<img width="2872" height="1394" alt="image" src="https://github.com/user-attachments/assets/9fd6ae79-b8c8-42a4-89de-889b3e1fe409" />
+
+
+This design had much of the same result, except for now a lot of the force got concentrated onto the center hole. This also did not converge fully, but the displacement still converged. The ribs on the top did help bring down the torsion, but it is still flexing on the sides near the flange. 
+
+Overall, either design would work well, but to save costs the first one can be used. If loading something heavier, it might be best to move to the second design. The ribs could also be added to the bottom as well, but pay attention to the forces around the center hole because it could potentially be a failure mode.
+
+<img width="2270" height="320" alt="image" src="https://github.com/user-attachments/assets/a9affbf4-aab5-4650-a46b-84dc740281e8" />
 
 ### Cross Head 2D CAD Drawing
 
 #### Files for download
+
+[Tensile Assembly]
+
+[Redesigned Crosshead]
+
 
 [Cross Head Drawing SW](https://github.com/murondj/megr2156-design-portfolio/edit/main/docs/assignments/A10/CrossHead.SLDDRW)
 
@@ -255,8 +289,8 @@ The Cross Head is designed to travel on the lead screws via the nuts secured to 
 
 <img width="1061" height="820" alt="image" src="https://github.com/user-attachments/assets/b17052b1-1ccd-4243-ade8-4f1e1a1bba6b" />
 
-
 ## Communicate
 
 ### Lessons Learned: Greyson Boatright
 In this group assignment we learned a vital lesson in team work, just as you would in industry there are often engineering projects in which you have to work with a team of engineers and/or other departments. There are task that need to be done before other phases of a project can be accomplished and this assignment was a perfect example of this. Before we could even start modeling anything there had to be hand calculations done with an analysis of the assembly and its individual components. Another lesson learned in this assignment was to consider critical factors in making engineering decisions, for example when it came to choosing the required sizes for components there were many choices in material such as the type of steel. In making the decision in the material there was an in depth analysis in what the life cycle, conditions, etc. of the tester would be used. Another factor in making material decisions was cost, some were more economical than others and even though there was not a set budget, keeping economically sounds choices were taken into consideration. In total we spent about 25 hours working on the assignment.
+
