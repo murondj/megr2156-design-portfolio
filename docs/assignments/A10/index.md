@@ -135,7 +135,7 @@ Below is the total cost of all the material and the assembly parts as well.
 
 Note that tabulated cost does not include the cost of crosshead, machining of crosshead or cutting and welding the frame together.
 
-### CAD Modeling and FEA J.V. Muron
+### CAD Modeling and FEA: J.V. Muron
 
 #### Design of Crosshead
 Austin designed the crosshead from his drawings. From here, it was parametrically modeled to allow for the size of the crosshead to be changed to fit any system with the same lead screws. This is the parametric equations used.
@@ -163,7 +163,7 @@ The assembly is now ready for the loader to be added and ready to test material.
 
 <img width="2870" height="1334" alt="image" src="https://github.com/user-attachments/assets/1a3e79e1-95b1-438f-9d43-1f10a7b46c7b" />
 
-Note this is not the same exact tensile tester, only a model one of the component.
+Note this is not the same exact load cell, only a model one of the component.
 
 #### FEA of Crosshead
 
@@ -172,6 +172,74 @@ The crosshead works by moving up and down. This movement is driven by a motor at
 When running the FEA on the crosshead, it is important to know which way the forces are going. The tension caused by pulling on the material is forcing the center of the crosshead **down**. The lead screws, nut, and flanges are being driven **up** by the motor. This creates a fixed constraint on the contact point of the flanges. To create this on the crosshead model, a split face needs to be added where the crosshead will experience the fixed constraint.
 
 <img width="2878" height="1334" alt="image" src="https://github.com/user-attachments/assets/cedd20a7-5a2f-46ba-9388-3592d2228fbf" />
+
+
+Once those areas have the fixed constraint applied, a bearing load of **2kN**  is placed on the hole in the center, where the material is pulling down on the crosshead. This is the max force the crosshead should be able to take. 
+
+ 
+
+##### Design 1: No changes to design
+
+###### Iteration 1
+
+Safety Factor: 32.858
+<img width="2876" height="1266" alt="image" src="https://github.com/user-attachments/assets/429cd389-133a-49ad-a81a-d522bed9a503" />
+
+Von Mises: 8.40 MpPa
+<img width="2880" height="1248" alt="image" src="https://github.com/user-attachments/assets/0988a7ff-b404-4e8d-8938-c510e7cc8f66" />
+
+Deflection: 0.0002744 inches
+<img width="2880" height="1258" alt="image" src="https://github.com/user-attachments/assets/1c83fdb9-457e-45b7-95b1-7987c27417e7" />
+
+###### Iteration 2
+
+Safety Factor: 33.197
+<img width="2872" height="1302" alt="image" src="https://github.com/user-attachments/assets/8d8a8858-a2ed-45af-bfb6-d57082438f9f" />
+
+Von Mises:8.314 MPa
+<img width="2876" height="1262" alt="image" src="https://github.com/user-attachments/assets/e1d74b83-47af-4f1e-8854-5d25eb5c5581" />
+
+Deflection: 0.000762 inches
+<img width="2876" height="1258" alt="image" src="https://github.com/user-attachments/assets/2f8ff127-2a30-4e01-ba75-bec667463358" />
+
+###### Iteration 3
+
+Safety Factor: 21.399
+<img width="2868" height="1252" alt="image" src="https://github.com/user-attachments/assets/0d839310-5ad6-48d1-b379-33edecf126f4" />
+
+Von Mises: 12.898 MPa
+<img width="2880" height="1274" alt="image" src="https://github.com/user-attachments/assets/05f7a3da-7d89-4b1a-bba5-0e2746b6c595" />
+
+Deflection: 0.0002835 inches
+<img width="2874" height="1266" alt="image" src="https://github.com/user-attachments/assets/ee5f7cda-9df2-433e-b094-0ead15178783" />
+
+##### Design 2: 
+
+###### Iteration 1
+
+Safety Factor: 
+
+Von Mises: 
+
+
+Deflection:
+
+###### Iteration 2
+
+Safety Factor:
+
+Von Mises:
+
+Deflection:
+
+###### Iteration 3
+
+Safety Factor:
+
+Von Mises:
+
+Deflection:
+
 
 ### Cross Head 2D CAD Drawing
 
