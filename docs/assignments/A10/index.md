@@ -142,7 +142,15 @@ Once the pieces of the frame are cut, the body assembly is created for the frame
 #### Files for download
 
 [Cross Head Drawing SW](https://github.com/murondjmegr2156-design-portfolioocs/assignments/A10/CrossHead.SLDDRW)
+
 [Cross Head Drawing PDF](https://github.com/murondjmegr2156-design-portfolioocs/assignments/A10/CrossHead.pdf)
+
+#### Drawing Notes
+
+The Cross Head is designed to travel on the lead screws via the nuts secured to the mounting flanges. The design is such that socket head cap screws can be used in the plate and nuts secured from the flange side. This eliminates the possibility of the harder steel bolts galling the threads and potentially tearing out from the aluminum plate.
+
+<img width="1061" height="820" alt="image" src="https://github.com/user-attachments/assets/b17052b1-1ccd-4243-ade8-4f1e1a1bba6b" />
+
 
 ## Communicate
 
