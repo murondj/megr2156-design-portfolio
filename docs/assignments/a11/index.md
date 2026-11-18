@@ -13,7 +13,7 @@ For the design of the frame, the way the frame is assembled is important to how 
 Looking at the mock-up assembly, there is no clear way to assemble the top piece practically. To solve this issue, the header bar length will be extended **over** the vertical runners and **reorientated** to have the flat side on top of the vertical runners. This orientation allows for the top runner to be calculated as a beam, while also increasing the bending moment, due to the larger cross section. The new length of the top runner is **17.278 inches minimum**. There is extra material so this is not a problem.
 
 #### FBD of Top Bar and Vertical Runners
-
+Treating the top runner as a bar under transverse, torsional, 
 
 
 ## Decide
