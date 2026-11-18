@@ -6,6 +6,16 @@
 ## Analyze
 This week's assignment is a continuation of the design and assembly of a tensile tester. This portion will focus on the motor selection to drive the lead screws, frame, mounting, and clamping of the tensile tester.
 
+### Motor Selection & Attachments: Greyson Boatright
+
+#### Motor Selection
+
+Motor Link: https://www.mcmaster.com/6409K111/
+
+#### Motor Mount Bracket
+#### Coupler Selection
+
+
 ### Analyzing and Designing the Frame - J.V. Muron
 
 For the design of the frame, the way the frame is assembled is important to how the machine will be affected under load. An FBD of the top bar and vertical runners is conducted to pick the proper fastening technique for the 40 Series bars from the previous assignment.
