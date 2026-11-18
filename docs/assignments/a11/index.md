@@ -10,7 +10,7 @@ This week's assignment is a continuation of the design and assembly of a tensile
 
 #### Motor Selection
 
-Motor Link: https://www.mcmaster.com/6409K111/
+Motor Link(6409K111 at $127.33 each): https://www.mcmaster.com/6409K111/
 
 #### Motor Mount Bracket
 
