@@ -18,8 +18,11 @@ Motor Link: https://www.mcmaster.com/6409K111/
 
 
 Link for coupler components
+
 Motor Hub(6408k13 at $14.71 each): https://www.mcmaster.com/6408K13/
+
 Leadscrew Hub(6408k119 at $14.73 each): https://www.mcmaster.com/6408K119/  
+
 Flexible Spider (6408k74 at $13.06 each): https://www.mcmaster.com/6408K74/
 
 ### Analyzing and Designing the Frame - J.V. Muron
