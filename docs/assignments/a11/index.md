@@ -54,6 +54,8 @@ Looking at the mock-up assembly, there is no clear way to assemble the top piece
 #### FBD of Top Bar and Vertical Runners
 Treating the top runner as a bar under transverse, torsional, 
 
+### Frame Assembly Adjustments - J.V. Muron
+
 ### Design of floating bearing for lead screws - Austin Hill
 
 In order to prevent transverse deflection from buckling in the lead screws, floating bearings were designed.
@@ -99,7 +101,7 @@ The headspace dimension of 0.016" accounts for roughly four times the maximum de
 
 ## Decide
 
-### Frame Assembly Adjustments - J.V. Muron
+
 
 
 ## Communicate
