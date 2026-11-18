@@ -54,6 +54,48 @@ Looking at the mock-up assembly, there is no clear way to assemble the top piece
 #### FBD of Top Bar and Vertical Runners
 Treating the top runner as a bar under transverse, torsional, 
 
+### Design of floating bearing for lead screws - Austin Hill
+
+In order to prevent transverse deflection from buckling in the lead screws, floating bearings were designed.
+The fit was assigned to be class RC3. 
+Per Machinery's Handbook RC3 is a precision fit with a minimum clearance of 0.0005" and a maximum clearance of 0.0015"
+Also per Machinery's Handbook, the tolerance allowed for the major diameter of a 3/8"-16 Acme lead screw is +0.000" / -0.005".
+
+#### Shaft diameter
+This means that the lead screw will need to be machined or cylindrically ground to achieve the desired fit.
+The minor diameter of a 3/8"-16 acme lead screw (per guess who) is 0.3025" +0.000" / -0.0168". 
+Given that the motor coupling will already be 0.250" I decided on a bearing shaft nominal diameter of 0.250".
+Per table 9a of Machinery's Handbook, the pin tolerance for a 0.250" nominal RC3 fit is -0.0005" / -0.0009".
+This puts the machined diameter of the bearing side (bottom, or ODE if you're nasty) at 0.2493  +/- 0.0002"
+Also per table 9a of Machinery's Handbook, the hole tolerance for a 0.250" nominal RC3 fit is +0.0000 / +0.0006.
+This puts the final hole size of the bearing at 0.2503 +/- 0.0003".
+
+
+
+#### Volumetrics
+Bearings are seldom useful if they do not stay in place about the axis of rotation.
+This means that we're going to have to find some way of securing the bearing into place relative to the frame of the machnine.
+Fortunately we have the convenience of ready-made series 40 frame with a convenient t-slot.
+The width of the section of T-Slot where the Bearing will affix is 1.325" (not including the fillet edge)
+
+<img width="368" height="337" alt="image" src="https://github.com/user-attachments/assets/53274433-4fad-4ef4-9192-8848ffdd5808" />
+
+This will serve as the width of the bearing plate.
+Some oversizing of this dimension will not critically affect performance so we'll take 1.325" as a minimum for tolerancing.
+
+For the length I started with 2.25" estimating some need for screw heads and t-slot nuts.
+I established an axis in the model through the lead screw to locate the ends of the bearing length.
+
+<img width="424" height="323" alt="image" src="https://github.com/user-attachments/assets/c464b3ac-b6f5-4ce3-9a0b-6d59dfec016d" />
+
+For the height I estimated that if 0.25" is good enough for the diameter then it is good enough for the bearing height.
+One small wrinkle is that I did over-cut the 0.2493 diameter 0.016" farther on the lead screw. 
+There needs to be some gap between the machined face (normal to rotation) on the lead screw and the bearing or else any deflection will cause excess friction and prevent accurate loading of the sample.
+
+<img width="315" height="216" alt="image" src="https://github.com/user-attachments/assets/861a76c3-6ce6-411c-a3e9-33d0add84192" />
+
+The headspace dimension of 0.016" accounts for roughly four times the maximum deflection (0.1mm) allowed int he parts
+
 
 ## Decide
 
