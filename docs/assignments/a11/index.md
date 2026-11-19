@@ -52,16 +52,21 @@ For the design of the frame, the way the frame is assembled is important to how 
 Looking at the mock-up assembly, there is no clear way to assemble the top piece practically. To solve this issue, the header bar length will be extended **over** the vertical runners and **reorientated** to have the flat side on top of the vertical runners. This orientation allows for the top runner to be calculated as a beam, while also increasing the bending moment, due to the larger cross section. The new length of the top runner is **17.278 inches minimum**. There is extra material so this is not a problem. The new length of the bar will be **18.258 inches**.
 
 #### FBD of Top Bar and Vertical Runners
-Treating the top runner as a bar under torsional and transverse load, the reaction forces and design torque and forces can be calculated. The motors will both spin the same direction, so the calculated design torque will be the motor selected torque times two, times the safety factor of 4. This gives a calculated torque that the design must be able to handle. This torque is **38.88 Nm**. Based on the torque from the motors, the force the design needs to be able to withstand is **101.28N**. The counteracting moments from each side of the frame to counteract movement from the motor needs to be **25.32N and -25.32N**. The reaction forces on the frame need to be at least **1000N per side**. While the slots have 8 bolts to hold everything in, the calculations will be determined using the minimum fastener amount of 4, and extra can be added if needed.
+Treating the top runner as a bar under torsional and transverse load, the reaction forces and design torque and forces can be calculated. The motors will both spin the same direction, so the calculated design torque will be the motor selected torque times two, times the safety factor of 4. This gives a calculated torque that the design must be able to handle. This torque is **38.88 Nm**. Based on the torque from the motors, the force the design needs to be able to withstand is **101.28N**. The counteracting moments from each side of the frame to counteract movement from the motor needs to be **25.32N and -25.32N**. The reaction forces on the frame need to be at least **1000N per side**. 
 
-This bracket uses 8mm bolt fasteners. Assuming the 101.28 N force is split between two brackets, the shear stress in the bolts is calculated to be **0.252MPa**. 
-
+Photo Here
 
 #### Bracket Selection
-The hardware being selected needs to be able to withstand these forces, while also not succumbing to bending or shear failure. To verify the bracket selection, the shear, bearing, and bending stresses of the bracket must be calculated. The first pick of the bracket conflicted with the design and did not mesh with the T slots, so the new pick was **40 Series 76x69x76 mm**.
+The hardware being selected needs to be able to withstand these forces, while also not succumbing to bending or shear failure. To verify the bracket selection, the shear, bearing, and bending stresses of the bracket must be calculated. The first pick of the bracket conflicted with the design and did not mesh with the T slots, so the new pick was **40 Series 76x69x76 mm**. While the slots have 8 bolts to hold everything in, the calculations will be determined using the minimum fastener amount of 4, and extra can be added if needed. This bracket uses 8mm bolt fasteners. Assuming the 101.28 N force is split between two brackets, the shear stress in the bolts is calculated to be **0.252MPa**. The bearing stress on the bracket is calculated from the thickness of the plate (8mm) and diameter of the bolt. This bearing stress is calculated to be **0.198MPa**. The bending stress of the bracket is calculated next. The value calculated comes out to **0.112 MPa**.
 
+Photo Here
 
+Using the yield strength of Aluminum as 276 MPa and the safety factor of 4, all metrics of the bracket are well under the allowed shear and bearing stress. This means the failure mode will not come from the forces on the bracket.
+
+Photo Here
 ### Frame Assembly Adjustments - J.V. Muron
+
+
 
 ### Design of floating bearing for lead screws - Austin Hill
 
