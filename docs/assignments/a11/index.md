@@ -72,10 +72,28 @@ An FEA is conducted on the top bar to ensure it is able to handle the stresses f
 
 Next, The torque and tensile forces are loaded to the top of the bar.
 
+<img width="2868" height="1396" alt="image" src="https://github.com/user-attachments/assets/984edae4-eba9-4dec-bb91-514c54e3847f" />
 
 
+The test is now ready to be conducted
 
+#### Iterations and Convergence
 
+##### Iteration 1
+
+Safety Factor: 6.934
+<img width="2868" height="1442" alt="image" src="https://github.com/user-attachments/assets/bd93c7cb-3358-467b-b0f2-3f2c58a0f100" />
+
+Stress: 39.659 MPa inside of lead screw hole
+<img width="2866" height="1376" alt="image" src="https://github.com/user-attachments/assets/aa364ffc-23de-4ae8-8b68-374e2c59f53c" />
+
+Deflection: 0.001 inches in the center of the bar
+<img width="2866" height="1558" alt="image" src="https://github.com/user-attachments/assets/53921322-6910-4aab-99c4-ae07a91fd6b4" />
+
+##### Iteration 2
+
+Safety Factor: 6.939
+<img width="2870" height="1282" alt="image" src="https://github.com/user-attachments/assets/1f4d90af-7964-48a9-a8e5-29fc00abe234" />
 
 
 ### Design of floating bearing for lead screws - Austin Hill
