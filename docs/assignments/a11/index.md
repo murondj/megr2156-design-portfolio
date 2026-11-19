@@ -250,3 +250,8 @@ Totals
 
 
 ## Communicate
+
+### Lessons Learned - J.V. Muron
+This week was all about choosing and designing parts in a cost effective manner. The FEA and the designing process allowed our team to explore and achieve a better understanding in what needs to be accounted for to allow a good design to work. This week added a new layer of how different parts interact with each other to create one full assembly. While the frame was designed last week with the lead screw and cross head, this week focused on mounting and motor selection. These are important to understand, because selecting one item over another impacts the entire design. I think this exercise helps with choosing an engineering position not only based on calculations, but based on how creative of a problem solver you are and what you value most in your work. Do you choose a design that is cost effective, but runs the risk of failing in a practical setting? Or do you choose more design implementations that will make it succeed at a higher cost. Getting to choose the frame design, bracket assembly, and motors was all shown this assignment. We went with more cost effective motors and simplistic designs to save budget, but we also spent more money on fasteners and brackets to create a sturdier frame for the tester. This allowed for a balanced budget for the design.
+
+This assignment took 20 hours over the course of 2 days. 
