@@ -203,10 +203,12 @@ Bill of Material
 <img width="1006" height="725" alt="image" src="https://github.com/user-attachments/assets/47afdd60-1d86-4bb6-b1ca-98cb75a59de5" />
 
 
-Design Cost							
+Design Cost			
+
 <img width="1006" height="110" alt="image" src="https://github.com/user-attachments/assets/f7ed26dd-c085-4828-b63a-efa752ec9d38" />
 
 Totals
+
 <img width="395" height="71" alt="image" src="https://github.com/user-attachments/assets/873fbbae-339b-464f-86bd-453383978d25" />
 
 
