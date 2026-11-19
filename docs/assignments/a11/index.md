@@ -194,7 +194,9 @@ The headspace dimension of 0.016" accounts for roughly four times the maximum de
 
 ### Billing and Cost of Material - J.V. Muron
 
+[Cost and Labor csv](https://github.com/murondj/megr2156-design-portfolio/edit/main/docs/assignments/a11/A11_Costs.csv)
 
+[Cost and Labor excel](https://github.com/murondj/megr2156-design-portfolio/edit/main/docs/assignments/a11/A11_Costs.xlsx)
 
 ### Isometric View and Drawings - Austin Hill
 
