@@ -63,16 +63,18 @@ Looking at the mock-up assembly, there is no clear way to assemble the top piece
 #### FBD of Top Bar and Vertical Runners
 Treating the top runner as a bar under torsional and transverse load, the reaction forces and design torque and forces can be calculated. The motors will both spin the same direction, so the calculated design torque will be the motor selected torque times two, times the safety factor of 4. This gives a calculated torque that the design must be able to handle. This torque is **38.88 Nm**. Based on the torque from the motors, the force the design needs to be able to withstand is **101.28N**. The counteracting moments from each side of the frame to counteract movement from the motor needs to be **25.32N and -25.32N**. The reaction forces on the frame need to be at least **1000N per side**. 
 
-Photo Here
+<img width="710" height="952" alt="image" src="https://github.com/user-attachments/assets/693829cc-423d-428e-b0bb-d3405fbf306f" />
+
 
 #### Bracket Selection
 The hardware being selected needs to be able to withstand these forces, while also not succumbing to bending or shear failure. To verify the bracket selection, the shear, bearing, and bending stresses of the bracket must be calculated. The first pick of the bracket conflicted with the design and did not mesh with the T slots, so the new pick was **40 Series 76x69x76 mm**. While the slots have 8 bolts to hold everything in, the calculations will be determined using the minimum fastener amount of 4, and extra can be added if needed. This bracket uses 8mm bolt fasteners. Assuming the 101.28 N force is split between two brackets, the shear stress in the bolts is calculated to be **0.252MPa**. The bearing stress on the bracket is calculated from the thickness of the plate (8mm) and diameter of the bolt. This bearing stress is calculated to be **0.198MPa**. The bending stress of the bracket is calculated next. The value calculated comes out to **0.112 MPa**.
 
-Photo Here
+<img width="770" height="1062" alt="image" src="https://github.com/user-attachments/assets/c13a4b16-1ad1-430c-a588-15c433fa34b6" />
 
 Using the yield strength of Aluminum as 276 MPa and the safety factor of 4, all metrics of the bracket are well under the allowed shear and bearing stress. This means the failure mode will not come from the forces on the bracket.
 
-Photo Here
+<img width="806" height="1058" alt="image" src="https://github.com/user-attachments/assets/d5095d8c-51ea-4e54-b46c-429ac294e845" />
+
 ### FEA Top Runner - J.V. Muron
 
 An FEA is conducted on the top bar to ensure it is able to handle the stresses from the motors and tensile forces. To analyze the bar, the split face technique is used again to apply fixed constraints to where the bar would be affixed to the vertical runners.
