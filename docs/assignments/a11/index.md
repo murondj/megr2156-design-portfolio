@@ -198,7 +198,28 @@ The headspace dimension of 0.016" accounts for roughly four times the maximum de
 
 ### Isometric View and Drawings - Austin Hill
 
-[Drawing Package](A11 Tensile Tester Drawings PDF.pdf)
+[Drawing Package](https://github.com/murondj/megr2156-design-portfolio/edit/main/docs/assignments/a11/A11_Tensile_Tester_Drawings_PDF.pdf)
+
+<img width="898" height="584" alt="image" src="https://github.com/user-attachments/assets/86831e58-ea54-45d3-b0f3-fecbb72ef0b5" />
+
+<img width="903" height="587" alt="image" src="https://github.com/user-attachments/assets/ed85ba2a-3a99-45b0-bc27-62c8704f2c6f" />
+
+<img width="902" height="585" alt="image" src="https://github.com/user-attachments/assets/b3087609-a5ef-48ca-94c2-961d54bec374" />
+
+<img width="905" height="592" alt="image" src="https://github.com/user-attachments/assets/b89938e2-40f5-4822-9cf3-1b5514265835" />
+
+<img width="906" height="591" alt="image" src="https://github.com/user-attachments/assets/47268a56-df41-4a66-b905-7abff06089fb" />
+
+<img width="913" height="593" alt="image" src="https://github.com/user-attachments/assets/4326a867-85c5-4a48-b5b5-243663fe6512" />
+
+<img width="445" height="683" alt="image" src="https://github.com/user-attachments/assets/ec9bfabe-42ac-452f-b5ed-7afde84947a9" />
+
+
+
+
+
+
+
 
 
 ## Communicate
