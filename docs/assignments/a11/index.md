@@ -77,7 +77,7 @@ Next, The torque and tensile forces are loaded to the top of the bar.
 
 The test is now ready to be conducted
 
-#### Iterations and Convergence
+#### Iterations and Convergence on Top Runner
 
 ##### Iteration 1
 
@@ -95,6 +95,59 @@ Deflection: 0.001 inches in the center of the bar
 Safety Factor: 6.939
 <img width="2870" height="1282" alt="image" src="https://github.com/user-attachments/assets/1f4d90af-7964-48a9-a8e5-29fc00abe234" />
 
+Stress: 39.63 MPa inside of lead screw hole 
+<img width="2880" height="1270" alt="image" src="https://github.com/user-attachments/assets/7a6fb6f8-afa2-4cb8-904c-5fe0a8f9056b" />
+
+Deflection: 0.001 inches in center of bar
+
+<img width="2872" height="1258" alt="image" src="https://github.com/user-attachments/assets/1e099ac5-893b-4566-a071-79fa3a6e40e4" />
+
+
+This design reached convergence after to meshes on all criteria. This implies a strong design already for what the bar is made for. The design showed no unplanned warping or twisting from the applied moments. If there were improvements that would need to be made to the runner, the mounting plate thickness could increase or adding steel plates to increase the stiffness of the frame could be used. 
+
+<img width="1900" height="258" alt="image" src="https://github.com/user-attachments/assets/62369237-6d8a-4770-90e1-bc3218fa6a49" />
+
+### FEA on Vertical Supports - J.V. Muron
+
+The vertical support will have an FEA ran on it as well. This has the axial load of 1000 N,  but also a transverse load. This transverse load can be calculated by the moment divided by the distance of the space in between the bars. This comes to **65.96 N**. 
+
+The bottom of the bar is a fixed constraint.
+<img width="2872" height="1428" alt="image" src="https://github.com/user-attachments/assets/4c659d8d-b8e8-472a-bec3-6a9b5ff9eaa5" />
+
+The transverse and axial load are then applied to the bar.
+
+<img width="2878" height="1428" alt="image" src="https://github.com/user-attachments/assets/877b2bd0-8fcb-4889-a57b-d04ac4aae4f2" />
+
+#### Iterations and Convergence of Vertical Runner
+
+##### Iteration 1
+
+Safety Factor: 95.528
+<img width="2874" height="1258" alt="image" src="https://github.com/user-attachments/assets/0f034d33-8eb9-425e-8b02-5d054515bd80" />
+
+Stress: 2.879 on fixed end
+<img width="2880" height="1398" alt="image" src="https://github.com/user-attachments/assets/0b730802-a8cc-4928-9223-4faf18fde730" />
+
+Deflection: 0.003 in on transverse load end
+<img width="2864" height="1358" alt="image" src="https://github.com/user-attachments/assets/4ab1d3f0-c3d5-4911-b445-00f3d977c090" />
+
+##### Iteration 2
+
+Safety Factor: 89.75
+<img width="2880" height="1262" alt="image" src="https://github.com/user-attachments/assets/d682a4bd-e38c-42ef-a3ea-2c762834c3ff" />
+
+Stress: 
+<img width="2874" height="1370" alt="image" src="https://github.com/user-attachments/assets/e2bd0a71-b73e-4d92-9506-a3fb53014b22" />
+
+Deflection: 
+
+<img width="2880" height="1382" alt="image" src="https://github.com/user-attachments/assets/f9f9b682-9b15-4da7-a0dd-0ed67c557843" />
+
+The vertical runner also meets all convergence criteria. These runners will be able to support the transverse and axial loads without buckling.
+
+<img width="2024" height="234" alt="image" src="https://github.com/user-attachments/assets/99088bd3-ed02-482d-aac4-1e33f720c1ed" />
+
+## Decide
 
 ### Design of floating bearing for lead screws - Austin Hill
 
@@ -139,9 +192,10 @@ There needs to be some gap between the machined face (normal to rotation) on the
 The headspace dimension of 0.016" accounts for roughly four times the maximum deflection (0.1mm) allowed int he parts
 
 
-## Decide
+### Billing and Cost of Material - J.V. Muron
 
 
 
+### Isometric View and Drawings - J.V. Muron
 
 ## Communicate
