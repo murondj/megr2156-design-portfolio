@@ -64,7 +64,17 @@ Photo Here
 Using the yield strength of Aluminum as 276 MPa and the safety factor of 4, all metrics of the bracket are well under the allowed shear and bearing stress. This means the failure mode will not come from the forces on the bracket.
 
 Photo Here
-### Frame Assembly Adjustments - J.V. Muron
+### FEA Top Runner - J.V. Muron
+
+An FEA is conducted on the top bar to ensure it is able to handle the stresses from the motors and tensile forces. To analyze the bar, the split face technique is used again to apply fixed constraints to where the bar would be affixed to the vertical runners.
+
+<img width="2870" height="1424" alt="image" src="https://github.com/user-attachments/assets/9ec19014-f9e6-4b58-8366-6faef3cc0e79" />
+
+Next, The torque and tensile forces are loaded to the top of the bar.
+
+
+
+
 
 
 
