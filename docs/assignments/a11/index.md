@@ -52,7 +52,9 @@ For the design of the frame, the way the frame is assembled is important to how 
 Looking at the mock-up assembly, there is no clear way to assemble the top piece practically. To solve this issue, the header bar length will be extended **over** the vertical runners and **reorientated** to have the flat side on top of the vertical runners. This orientation allows for the top runner to be calculated as a beam, while also increasing the bending moment, due to the larger cross section. The new length of the top runner is **17.278 inches minimum**. There is extra material so this is not a problem. The new length of the bar will be **18.258 inches**.
 
 #### FBD of Top Bar and Vertical Runners
-Treating the top runner as a bar under transverse, torsional, 
+Treating the top runner as a bar under torsional and transverse load, the reaction forces and design torque and forces can be calculated. The motors will both spin the same direction, so the calculated design torque will be the motor selected torque times two, times the safety factor of 4. This gives a calculated torque that the design must be able to handle. This torque is **38.88 Nm**. Based on the torque from the motors, the force the design needs to be able to withstand is **101.28N**. The counteracting moments from each side of the frame to counteract movement from the motor needs to be **25.32N and -25.32N**.
+
+#### Bracket selection
 
 ### Frame Assembly Adjustments - J.V. Muron
 
