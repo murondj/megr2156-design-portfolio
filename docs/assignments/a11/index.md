@@ -225,6 +225,8 @@ Totals
 
 ### Isometric View and Drawings - Austin Hill
 
+[Assembly Model Step (zipped)](https://github.com/murond/megr2156-design-portfolio/edit/main/docs/assignments/a11/TensileTester.zip)
+
 [Drawing Package](https://github.com/murondj/megr2156-design-portfolio/edit/main/docs/assignments/a11/A11_Tensile_Tester_Drawings_PDF.pdf)
 
 <img width="898" height="584" alt="image" src="https://github.com/user-attachments/assets/86831e58-ea54-45d3-b0f3-fecbb72ef0b5" />
