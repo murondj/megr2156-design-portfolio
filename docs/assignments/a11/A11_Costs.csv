@@ -1,0 +1,28 @@
+﻿,,,,,,,
+Bill of Material,,,,,,,
+BOM #,Quantity,Name,Cost/Item,Cost,Vendor,Venor Item#,Purchase Link
+1,2, ACME Lead Screw 3/16 RH Steel , $39.78 , $79.56 ,Roton,60750,https://www.roton.com/family/acme-right-screws-and-nuts-7060750/
+2,1,"T-Slot Framing System; Rectangle, 40 Series, Smooth Double, 3m Length, 80mm x 40mm x 6mm slot", $211.32 , $211.32 ,Grainger,804T46,https://www.grainger.com/product/80-20-T-Slot-Framing-System-Rectangle-804T46
+3,2,"Precision Acme Externally Threaded Nut Right Hand, 673 Bronze, 3/8""-16 Thread Size", $29.52 , $59.04 ,McMaster,95072A4129,https://www.mcmaster.com/95072A129/
+4,2,"Precision ACME Flange 1215 Carbon Steel, 9/16""-18 Thread", $37.06 , $74.12 ,McMaster,95082A641,https://www.mcmaster.com/products/95082a641/
+5,1,Omega Load Cell, $336.11 , $336.11 ,Dwyer/Omega,LC103B-200,https://www.dwyeromega.com/en-us/high-accuracy-stainless-steel-s-beam-load-cells/LC103B/p/LC103B-200?utm_source=google&utm_medium=organic&utm_campaign=organicshopping&utm_term=&utm_campaign=Shopping-High+Inventory+Omega_Products&utm_source=adwords&utm_medium=ppc&hsa_acc=3861323739&hsa_cam=23485087147&hsa_grp=191162811839&hsa_ad=793551323277&hsa_src=g&hsa_tgt=pla-2463874841720&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=23485087147&gbraid=0AAAAAD_f1Fsn-M-5KkMXEx8HDlOAKHyBg&gclid=Cj0KCQiAwdDXBhDuARIsAFdLuklScrjDTOTw2McwSR4l6MzFkN4u7_eLSMa6L1Z_1-JVfeT90cgC0J4aAo7hEALw_wcB
+6,1,"Bar Stock for Cross head, 6061 T-6 Aluminum", $110.39 , $110.39 ,McMaster,5679N148,https://www.mcmaster.com/5679N148-5679N151/
+7,36,T-Slot Nut and M8 Screw for floating bearing mount, $1.68 , $60.39 ,McMaster,5537T458,https://www.mcmaster.com/5537T458/
+8,2,Compact DC Gearmotor, $127.33 , $254.66 ,McMaster,6409K111,https://www.mcmaster.com/6409K111/
+9,2,"Flexible Shaft Coupling 1/2"" ID", $14.71 , $29.42 ,McMaster,6408K13,https://www.mcmaster.com/6408K13-6408K713/
+10,2,Coupling Spider, $13.06 , $26.12 ,McMaster,6408K74,https://www.mcmaster.com/6408K74/
+11,2,"Fleible Shaft Coupling 1/4"" ID", $14.71 , $29.42 ,McMaster,6408K119,https://www.mcmaster.com/6408K119-6408K131/
+12,8,40 series 76x69x76mm bracket, $8.32 , $66.56 ,Grainger,55MT95,https://www.grainger.com/product/FATH-INC-Inside-Corner-Bracket-Inside-55MT95
+13,4,40 series 36x36x36mm bracket, $3.03 , $12.12 ,Grainger,55MT87,https://www.grainger.com/product/FATH-INC-Inside-Corner-Bracket-Inside-55MT87
+14,,,, $-   ,,,
+,,,,,,,
+Design Cost,,,,,,,
+Person,Hours worked,cost/ hour,cost,Labor Description/Assignment line items,,,
+J.V.,8,35, $280.00 ,,,,
+Greyson,8,35, $280.00 ,,,,
+Austin,8,35, $280.00 ,,,,
+,,,,,,,
+,,Material Subtotal," $1,349.23 ",,,,
+,,Design Subtotal, $840.00 ,,,,
+,,Total Cost of Project," $2,189.23 ",,,,
+,,,,,,,
