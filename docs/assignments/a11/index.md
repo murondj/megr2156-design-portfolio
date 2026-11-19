@@ -1,6 +1,15 @@
 # A11 – Motor Selection
 
-## Objective
+## Objectives
+1.) Select a motor and design a motor mount for assembly
+
+2.) Run FEA on vertical and horizontal frame pieces of assembly based on calculated forces
+
+3.) Design a floating bearing for lead screw
+
+4.) Create a bill of material and labor cost sheet
+
+5.) produce drawings and isometric view of assembly
 
 
 ## Analyze
