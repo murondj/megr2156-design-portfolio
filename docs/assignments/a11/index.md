@@ -196,6 +196,9 @@ The headspace dimension of 0.016" accounts for roughly four times the maximum de
 
 
 
-### Isometric View and Drawings - J.V. Muron
+### Isometric View and Drawings - Austin Hill
+
+[Drawing Package](A11 Tensile Tester Drawings PDF.pdf)
+
 
 ## Communicate
